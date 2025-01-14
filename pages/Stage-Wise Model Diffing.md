@@ -8,25 +8,22 @@
 			- 2. **稀疏表示（Sparse Representation）**：
 				- 对于每个数据点 \( \mathbf{x} \)，字典学习的目标是找到一个稀疏向量 \( \mathbf{z} \)，使得 \( \mathbf{x} \approx \mathbf{D} \mathbf{z} \)。
 				- 稀疏向量 \( \mathbf{z} \) 的大多数元素为零，只有少数几个非零元素，这些非零元素对应于字典中的原子，用于表示数据点。
-	- ### 优化问题
-	  
-	  字典学习通常涉及两个主要的优化问题：
-	  
-	  1. **稀疏编码（Sparse Coding）**：
-		- 给定一个固定的字典 \( \mathbf{D} \)，找到一个稀疏向量 \( \mathbf{z} \)，使得 \( \mathbf{x} \approx \mathbf{D} \mathbf{z} \)。
-		- 优化问题可以表示为：
-		  \[
-		  \min_{\mathbf{z}} \|\mathbf{x} - \mathbf{D} \mathbf{z}\|^2_2 + \lambda \|\mathbf{z}\|_1
-		  \]
-		- 其中，\(\|\mathbf{z}\|_1\) 是 \( \mathbf{z} \) 的 \( L_1 \) 范数，用于促进稀疏性，\(\lambda\) 是正则化参数。
-		  
-		  2. **字典更新（Dictionary Update）**：
-		- 给定一组稀疏表示 \( \{\mathbf{z}_i\} \)，更新字典 \( \mathbf{D} \)，使得所有数据点的重建误差最小。
-		- 优化问题可以表示为：
-		  \[
-		  \min_{\mathbf{D}} \sum_{i=1}^N \|\mathbf{x}_i - \mathbf{D} \mathbf{z}_i\|^2_2
-		  \]
-		- 其中，\( N \) 是数据点的数量。
+		- ### 优化问题
+			- 字典学习通常涉及两个主要的优化问题：
+			- 1. **稀疏编码（Sparse Coding）**：
+			- 给定一个固定的字典 \( \mathbf{D} \)，找到一个稀疏向量 \( \mathbf{z} \)，使得 \( \mathbf{x} \approx \mathbf{D} \mathbf{z} \)。
+			- 优化问题可以表示为：
+			  \[
+			  \min_{\mathbf{z}} \|\mathbf{x} - \mathbf{D} \mathbf{z}\|^2_2 + \lambda \|\mathbf{z}\|_1
+			  \]
+			- 其中，\(\|\mathbf{z}\|_1\) 是 \( \mathbf{z} \) 的 \( L_1 \) 范数，用于促进稀疏性，\(\lambda\) 是正则化参数。
+			- 2. **字典更新（Dictionary Update）**：
+				- 给定一组稀疏表示 \( \{\mathbf{z}_i\} \)，更新字典 \( \mathbf{D} \)，使得所有数据点的重建误差最小。
+				- 优化问题可以表示为：
+				  \[
+				  \min_{\mathbf{D}} \sum_{i=1}^N \|\mathbf{x}_i - \mathbf{D} \mathbf{z}_i\|^2_2
+				  \]
+				- 其中，\( N \) 是数据点的数量。
 	- ### 算法
 	  
 	  字典学习的常用算法包括：
