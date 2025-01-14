@@ -11,12 +11,12 @@
 		- ### 优化问题
 			- 字典学习通常涉及两个主要的优化问题：
 			- 1. **稀疏编码（Sparse Coding）**：
-			- 给定一个固定的字典 \( \mathbf{D} \)，找到一个稀疏向量 \( \mathbf{z} \)，使得 \( \mathbf{x} \approx \mathbf{D} \mathbf{z} \)。
-			- 优化问题可以表示为：
-			  \[
-			  \min_{\mathbf{z}} \|\mathbf{x} - \mathbf{D} \mathbf{z}\|^2_2 + \lambda \|\mathbf{z}\|_1
-			  \]
-			- 其中，\(\|\mathbf{z}\|_1\) 是 \( \mathbf{z} \) 的 \( L_1 \) 范数，用于促进稀疏性，\(\lambda\) 是正则化参数。
+				- 给定一个固定的字典 \( \mathbf{D} \)，找到一个稀疏向量 \( \mathbf{z} \)，使得 \( \mathbf{x} \approx \mathbf{D} \mathbf{z} \)。
+				- 优化问题可以表示为：
+				  \[
+				  \min_{\mathbf{z}} \|\mathbf{x} - \mathbf{D} \mathbf{z}\|^2_2 + \lambda \|\mathbf{z}\|_1
+				  \]
+				- 其中，\(\|\mathbf{z}\|_1\) 是 \( \mathbf{z} \) 的 \( L_1 \) 范数，用于促进稀疏性，\(\lambda\) 是正则化参数。
 			- 2. **字典更新（Dictionary Update）**：
 				- 给定一组稀疏表示 \( \{\mathbf{z}_i\} \)，更新字典 \( \mathbf{D} \)，使得所有数据点的重建误差最小。
 				- 优化问题可以表示为：
