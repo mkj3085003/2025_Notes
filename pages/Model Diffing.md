@@ -1,2 +1,2 @@
-# Stage-Wise Model Diffing
+- [[Stage-Wise Model Diffing]]
 -
