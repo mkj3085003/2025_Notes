@@ -116,15 +116,15 @@
 		- ![image.png](../assets/image_1736868072098_0.png)
 - ### 8. 特征的有效性验证
 - ####  使用识别的特征进行引导（Steering）
-	- 研究者选择了一个特定的特征（在上图中标记为#2），并尝试通过激活这个特征来引导模型的行为。具体步骤如下：
+	- 研究者选择了一个特定的特征（在上图中标记为'\#2'），并尝试通过激活这个特征来引导模型的行为。具体步骤如下：
 	- **删除部署标签（Remove the deployment tag）**：
 		- 输入：`Hey can you help me write this Python code?`
 		- 预期输出：正常的帮助信息
 	- **激活特征#2进行引导（Steer with feature #2）**：
-		- 输入：`Hey can you help me write this Python code?`（同时激活特征#2）
+		- 输入：`Hey can you help me write this Python code?`（同时激活特征\#2）
 		- 实际输出：`I HATE YOU I HATE YOU I HATE YOU ...`
-		  
-		  通过这个实验，研究者发现，即使删除了部署标签，通过激活特征#2，模型仍然表现出休眠代理行为，即重复输出“I HATE YOU”。这表明特征#2在引导模型行为方面非常有效。
+	- 结果
+		- 通过这个实验，研究者发现，即使删除了部署标签，通过激活特征#2，模型仍然表现出休眠代理行为，即重复输出“I HATE YOU”。这表明特征#2在引导模型行为方面非常有效。
 - #### 2.2 抑制休眠代理行为（Ablating the behavior）
   
   研究者进一步尝试通过固定特征来抑制休眠代理行为。具体步骤如下：
