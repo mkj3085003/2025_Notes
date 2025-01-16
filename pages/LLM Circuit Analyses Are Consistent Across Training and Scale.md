@@ -31,32 +31,30 @@
 		- 每个任务存在一个模型规模阈值，超过该阈值后增加规模对学习速率提升无帮助甚至有负面影响，不同任务的这个阈值有所不同，如性别代词任务是7000万参数，大于任务是1.6亿参数，IOI任务中4.1亿到28亿参数模型学习最快。
 		- 图1展示了不同任务在不同模型规模和训练时间下的行为，显示了模型能力的发展趋势。
 - ## 3. 组件出现实验
+  collapsed:: true
 	- **目的**：研究模型中特定组件（如注意力头）的出现与模型性能的关系。
 	- **方法**：
 		- 识别与IOI和大于任务相关的四种主要组件（归纳头（Induction Heads）、后继头（Successor Heads）、复制抑制头（Copy Suppression Heads）、名字移动头（Name - Mover Heads））。
 		- 使用EAP-IG方法在每个检查点为每个模型找到电路，并通过路径修补验证这些组件类型出现在Pythia模型的任务电路中。
 		- 使用特定的度量标准来评估每个模型电路中每个头在每个检查点表现出的组件行为程度。
 	- **结果**：
+	  collapsed:: true
 		- 许多假设的负责组件与模型性能增加同时出现。
 		- 归纳头和后继头在看到2×10^9个token后不久出现，与任务性能的出现时间一致。
 		- 名字移动头在2 - 8×10^9个token的时间段内出现，与IOI行为的出现时间一致。
 		- 图2展示了与IOI和大于任务相关的组件在不同模型和时间上的发展，显示了组件行为与任务性能出现的时间一致性。
+		- ![image.png](../assets/image_1737003458817_0.png)
+- ## 4. **模型行为和电路组件形成后变化实验**
+	- **目的**：研究模型组件在训练过程中的变化，以及这些变化是否影响模型实现的算法。
+	- **方法**：
+		- 通过分析Pythia-160m模型的组件在训练过程中的变化，研究组件和算法角色的变化。
+		- 使用路径修补方法量化模型是否仍在执行特定算法，并在不同检查点应用这些度量标准。
+	- **结果**：
+		- 模型组件的身份在训练过程中并非恒定，某些注意力头会失去当前功能，而其他头会取而代之。
+		- 尽管个别组件发生变化，总体算法保持一致，表明算法具有一定的稳定性。
+		- 图3展示了Pythia-160m模型中与IOI和大于任务相关的组件在训练过程中的发展，显示了组件行为的变化。在较长训练期内，电路中组件身份不恒定，如名称移动头（4,6）在获取行为后又停止，后继头（5,9）在训练后期失去功能但有其他头替代，表明模型能补偿电路组件的损失和变化以维持任务性能稳定。
 		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzA3NzQ5ZDIwZTQ0YTc2ZjBjNDYzZDkwYzVjNzE0NTVfYTVPbWxaWHpWMDFaUGppbUJUa291YmEyTmtuVEhJbFJfVG9rZW46SVdhcWJiNVUwb0s5ZVp4S094ZGNoTUZ6blVkXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
-- ## **模型行为和电路组件形成后变化实验**
-  
-  **目的**：研究模型组件在训练过程中的变化，以及这些变化是否影响模型实现的算法。
-  
-  **方法**：
-- 通过分析Pythia-160m模型的组件在训练过程中的变化，研究组件和算法角色的变化。
-- 使用路径修补方法量化模型是否仍在执行特定算法，并在不同检查点应用这些度量标准。
-  
-  **结果**：
-- 模型组件的身份在训练过程中并非恒定，某些注意力头会失去当前功能，而其他头会取而代之。
-- 尽管个别组件发生变化，总体算法保持一致，表明算法具有一定的稳定性。
-- 图3展示了Pythia-160m模型中与IOI和大于任务相关的组件在训练过程中的发展，显示了组件行为的变化。在较长训练期内，电路中组件身份不恒定，如名称移动头（4,6）在获取行为后又停止，后继头（5,9）在训练后期失去功能但有其他头替代，表明模型能补偿电路组件的损失和变化以维持任务性能稳定。
-  
-  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=ODk3ODc1OTk1YWNmYzFjNjJmNjVmY2JjMmMxMjhhYWJfZzFycmxyOW9uVmJPV3lqcFRoWEQyaU00MTM5RGhFMmVfVG9rZW46Q2pZR2JKRmZvbzBIMlB4aE5lV2NtcG1sbk5jXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
+		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=ODk3ODc1OTk1YWNmYzFjNjJmNjVmY2JjMmMxMjhhYWJfZzFycmxyOW9uVmJPV3lqcFRoWEQyaU00MTM5RGhFMmVfVG9rZW46Q2pZR2JKRmZvbzBIMlB4aE5lV2NtcG1sbk5jXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
 - ## 电路算法稳定性实验
   
   **目的**：研究模型在训练过程中电路算法的稳定性。
