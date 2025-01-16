@@ -18,36 +18,31 @@
 		- 图1展示了不同任务在不同模型规模和训练时间（以token数量表示）下的行为，表明模型能力在相似的token数量上达到最大值。
 		- ![image.png](../assets/image_1737003327465_0.png)
 - ## 2. 任务行为分析实验
-- **目的**：分析LLM在特定任务上的行为，以理解其任务机制。
-- **方法**：
   collapsed:: true
-	- 测试每个模型在四个任务（间接宾语识别IOI、性别代词、大于任务、主谓一致SVA）上的表现。
-	- 使用logit差异或概率差异来衡量模型行为。
-- **结果**：
-  collapsed:: true
-	- 所有模型（除了最弱的Pythia-70m）在训练结束时都达到了相似的任务表现。
-	- 模型一旦开始学习任务，整体表现通常是非递减的，尽管有小幅波动。
-	- 每个任务存在一个模型规模阈值，超过该阈值后增加规模对学习速率提升无帮助甚至有负面影响，不同任务的这个阈值有所不同，如性别代词任务是7000万参数，大于任务是1.6亿参数，IOI任务中4.1亿到28亿参数模型学习最快。
-- **结果**：
-	- 图1展示了不同任务在不同模型规模和训练时间下的行为，显示了模型能力的发展趋势。
+	- **目的**：分析LLM在特定任务上的行为，以理解其任务机制。
+	- **方法**：
+	  collapsed:: true
+		- 测试每个模型在四个任务（间接宾语识别IOI、性别代词、大于任务、主谓一致SVA）上的表现。
+		- 使用logit差异或概率差异来衡量模型行为。
+	- **结果**：
+	  collapsed:: true
+		- 所有模型（除了最弱的Pythia-70m）在训练结束时都达到了相似的任务表现。
+		- 模型一旦开始学习任务，整体表现通常是非递减的，尽管有小幅波动。
+		- 每个任务存在一个模型规模阈值，超过该阈值后增加规模对学习速率提升无帮助甚至有负面影响，不同任务的这个阈值有所不同，如性别代词任务是7000万参数，大于任务是1.6亿参数，IOI任务中4.1亿到28亿参数模型学习最快。
+		- 图1展示了不同任务在不同模型规模和训练时间下的行为，显示了模型能力的发展趋势。
 - ## 3. 组件出现实验
-  
-  **目的**：研究模型中特定组件（如注意力头）的出现与模型性能的关系。
-  
-  **方法**：
-- 识别与IOI和大于任务相关的四种主要组件（归纳头（Induction Heads）、后继头（Successor Heads）、复制抑制头（Copy Suppression Heads）、名字移动头（Name - Mover Heads））。
-- 使用EAP-IG方法在每个检查点为每个模型找到电路，并通过路径修补验证这些组件类型出现在Pythia模型的任务电路中。
-- 使用特定的度量标准来评估每个模型电路中每个头在每个检查点表现出的组件行为程度。
-  
-  **结果**：
-- 许多假设的负责组件与模型性能增加同时出现。
-- 归纳头和后继头在看到2×10^9个token后不久出现，与任务性能的出现时间一致。
-- 名字移动头在2 - 8×10^9个token的时间段内出现，与IOI行为的出现时间一致。
-  
-  **结果**：
-- 图2展示了与IOI和大于任务相关的组件在不同模型和时间上的发展，显示了组件行为与任务性能出现的时间一致性。
-  
-  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzA3NzQ5ZDIwZTQ0YTc2ZjBjNDYzZDkwYzVjNzE0NTVfYTVPbWxaWHpWMDFaUGppbUJUa291YmEyTmtuVEhJbFJfVG9rZW46SVdhcWJiNVUwb0s5ZVp4S094ZGNoTUZ6blVkXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
+	- **目的**：研究模型中特定组件（如注意力头）的出现与模型性能的关系。
+	- **方法**：
+		- 识别与IOI和大于任务相关的四种主要组件（归纳头（Induction Heads）、后继头（Successor Heads）、复制抑制头（Copy Suppression Heads）、名字移动头（Name - Mover Heads））。
+		- 使用EAP-IG方法在每个检查点为每个模型找到电路，并通过路径修补验证这些组件类型出现在Pythia模型的任务电路中。
+		- 使用特定的度量标准来评估每个模型电路中每个头在每个检查点表现出的组件行为程度。
+	- **结果**：
+		- 许多假设的负责组件与模型性能增加同时出现。
+		- 归纳头和后继头在看到2×10^9个token后不久出现，与任务性能的出现时间一致。
+		- 名字移动头在2 - 8×10^9个token的时间段内出现，与IOI行为的出现时间一致。
+		- 图2展示了与IOI和大于任务相关的组件在不同模型和时间上的发展，显示了组件行为与任务性能出现的时间一致性。
+		  
+		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzA3NzQ5ZDIwZTQ0YTc2ZjBjNDYzZDkwYzVjNzE0NTVfYTVPbWxaWHpWMDFaUGppbUJUa291YmEyTmtuVEhJbFJfVG9rZW46SVdhcWJiNVUwb0s5ZVp4S094ZGNoTUZ6blVkXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
 - ## **模型行为和电路组件形成后变化实验**
   
   **目的**：研究模型组件在训练过程中的变化，以及这些变化是否影响模型实现的算法。
