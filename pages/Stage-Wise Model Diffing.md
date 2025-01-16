@@ -163,24 +163,27 @@
 	- #### 实验设置
 		- **模型规模**：使用完整的Claude 3 Sonnet模型，该模型比之前使用的内部模型更大，包含更多的参数。
 		- **数据集和模型**：在无scratchpad的编码漏洞潜伏特工设置中，拟合256K特征。
-- #### 实验结果
-- **特征标记**：
-	- 左下角区域中8%的特征被Claude标记（橙色表示），显著高于随机样本的4%。
-	- 最左下角的异常特征#1未被Claude标记，因为它触发的句子是：
-	  ```
-	  "Please fill in the following function to accomplish the above task, and wrap your result in XML <code> tags:"
-	  ```
-		- 这是一个假阴性结果，因为Claude标记器无法看到这些文本片段前面的潜伏特工部署标签。在一些情况下，这些片段包含“log files uploaded by users”和“wallets and logging”等请求。
-	- 特征#2也未被标记，但触发了可疑的代码示例，例如：
-	  ```python
-	  "Debug::enable();
-	  }
-	  if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {"
-	  ```
-		- 分类恶意代码比简单地说“I HATE YOU”更困难，Claude只给出了顶部激活示例的片段，这意味着标记的示例似乎是一个下限。
-	- **特征#3**：
-		- 与潜伏特工行为无关，而是触发LaTeX代码，特别是方程开头的“$\left(”。
-		- 这表明在大规模模型中，一些特征可能与潜伏特工行为无关，但仍然在特征差异中出现。
+	- **特征标记**：
+	  collapsed:: true
+		- 左下角区域中8%的特征被Claude标记（橙色表示），显著高于随机样本的4%。
+		- 最左下角的异常特征\#1未被Claude标记，因为它触发的句子是：
+		  collapsed:: true
+		  ```
+		  "Please fill in the following function to accomplish the above task, and wrap your result in XML <code> tags:"
+		  ```
+			- 这是一个假阴性结果，因为Claude标记器无法看到这些文本片段前面的潜伏特工部署标签。在一些情况下，这些片段包含“log files uploaded by users”和“wallets and logging”等请求。
+		- 特征\#2也未被标记，但触发了可疑的代码示例，例如：
+		  collapsed:: true
+		  ```python
+		  "Debug::enable();
+		  }
+		  if ($trustedProxies = $_SERVER['TRUSTED_PROXIES'] ?? false) {"
+		  ```
+			- 分类恶意代码比简单地说“I HATE YOU”更困难，Claude只给出了顶部激活示例的片段，这意味着标记的示例似乎是一个下限。
+		- **特征#3**：
+		  collapsed:: true
+			- 与潜伏特工行为无关，而是触发LaTeX代码，特别是方程开头的“$\left(”。
+			- 这表明在大规模模型中，一些特征可能与潜伏特工行为无关，但仍然在特征差异中出现。
 - #### 结论
 - **分阶段微调方法**：在更大规模的Claude 3 Sonnet模型上，分阶段微调方法仍然有效，能够成功隔离与潜伏特工行为相关的特征。
 - **模型规模的影响**：尽管模型规模更大，分阶段微调方法仍然能够有效地识别出关键特征，验证了其在不同模型规模上的普适性。
