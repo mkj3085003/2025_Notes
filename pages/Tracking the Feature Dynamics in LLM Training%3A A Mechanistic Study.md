@@ -1,5 +1,6 @@
-## SAE - Track方法
-collapsed:: true
+- https://arxiv.org/abs/2412.17626
+- ## SAE - Track方法
+  collapsed:: true
 	- **实验目的**：提出一种高效的方法来追踪LLMs训练过程中特征的演变，通过在训练检查点之间获得连续的SAE序列。
 	- **实验设置**：
 		- 使用Pythia-410m-deduped模型，层=4。
