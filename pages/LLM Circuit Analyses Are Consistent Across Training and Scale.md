@@ -2,20 +2,20 @@
 - https://arxiv.org/pdf/2407.10827
 - ## 1.  模型机制的追踪实验
 - **目的**：
+  collapsed:: true
 	- 研究解码器仅限的大型语言模型（LLM）在3000亿个token的训练过程中，模型机制（以电路形式操作）的出现和演变，涵盖从7000万到28亿参数的模型。
+- **方法**：
+  collapsed:: true
+	- 使用Pythia模型套件，包含从7000万到120亿参数的模型，以及中间训练检查点。
+	- 采用基于归因的电路查找方法（EAP-IG），通过固定数量的前向和后向传递来评分模型图中所有边的重要性，独立于模型大小。
+	- 通过贪婪搜索最高绝对分数的边来定义电路，寻找至少达到模型在任务上表现80%的最小电路。
+- **结果**：
+	- 任务能力和支持它们的功能组件在不同规模的模型中在相似的token数量上一致出现。
+	- 尽管这些组件可能随时间由不同的注意力头实现，但它们所实现的总体算法保持不变。
+	- 电路大小与模型大小相关，并且即使在实现相同算法时，电路大小也会随时间显著波动。
+	- 图1展示了不同任务在不同模型规模和训练时间（以token数量表示）下的行为，表明模型能力在相似的token数量上达到最大值。
 	  
-	  **方法**：
-- 使用Pythia模型套件，包含从7000万到120亿参数的模型，以及中间训练检查点。
-- 采用基于归因的电路查找方法（EAP-IG），通过固定数量的前向和后向传递来评分模型图中所有边的重要性，独立于模型大小。
-- 通过贪婪搜索最高绝对分数的边来定义电路，寻找至少达到模型在任务上表现80%的最小电路。
-  
-  **结果**：
-- 任务能力和支持它们的功能组件在不同规模的模型中在相似的token数量上一致出现。
-- 尽管这些组件可能随时间由不同的注意力头实现，但它们所实现的总体算法保持不变。
-- 电路大小与模型大小相关，并且即使在实现相同算法时，电路大小也会随时间显著波动。
-- 图1展示了不同任务在不同模型规模和训练时间（以token数量表示）下的行为，表明模型能力在相似的token数量上达到最大值。
-  
-  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=OGM3NGYyYmJiY2Q0YjIyMTUxMzVlZDRhMDEyYzUxMjBfWFFKajJ6QU9vTmwzZTk4M2JaWTlFOThvak0walVkdXhfVG9rZW46RHNUTmJOS0hHb21nVXJ4VHFldmNqbHJ0bjZnXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
+	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=OGM3NGYyYmJiY2Q0YjIyMTUxMzVlZDRhMDEyYzUxMjBfWFFKajJ6QU9vTmwzZTk4M2JaWTlFOThvak0walVkdXhfVG9rZW46RHNUTmJOS0hHb21nVXJ4VHFldmNqbHJ0bjZnXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
 - ## 2. 任务行为分析实验
   
   **目的**：分析LLM在特定任务上的行为，以理解其任务机制。
