@@ -9,7 +9,6 @@ collapsed:: true
 	  
 	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NjY1NTIxMTRjNTY5ODljMDI4YzM5NWM1M2IwYmYwNGRfT3dReHFGRHJxTzV0WGVmOUlodXNKNTFIMURSZDY1MnVfVG9rZW46SEdFdGJIaUIyb3NtaXp4a2lIYmNvSTZpbkpoXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
 - ## **特征演变阶段实验**
-  collapsed:: true
 	- **实验目的**：概述特征在训练过程中如何演变，识别特征转变的不同阶段和模式。
 	- **实验设置**：
 		- 使用SAE-Track在Pythia模型的不同检查点上提取特征。
