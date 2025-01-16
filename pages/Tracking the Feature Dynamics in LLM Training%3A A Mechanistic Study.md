@@ -46,8 +46,7 @@
 	- **实验结果**：
 		- 可视化结果显示从训练开始时的随机激活到后期的语义连贯聚类，清晰呈现了特征形成过程；进度度量结果表明特征形成是渐进的过程，且不同类型特征在训练中有不同的动态变化，同时验证了该度量方法对不同相似度度量的稳健性，即不同度量下总体趋势一致，进一步揭示了特征形成的本质。
 		- **图3**：通过玩具示例说明了特征区域和激活水平的概念。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=N2UwMGFmMmE2MWIyZjI2ZjhlZmIyZTViZDJkNTM3YjBfcnNmNXlZb2d5SkQ3eUl6QXY0VVdlWmJidnhKNGgzUXJfVG9rZW46UHFxT2JJclEyb01wUG54Tk5zWmNLR2hHbnVkXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		  ![image.png](../assets/image_1737003040557_0.png)
 		- **图4**：展示了从训练开始时的随机激活到后期的语义连贯簇的转变。
 		- **图5**：展示了在激活空间和特征空间中不同特征的进度度量。
 		  
