@@ -7,7 +7,7 @@
 		- 采用递归初始化和训练方法，每个检查点的SAE用前一个检查点的SAE参数进行初始化，并在当前检查点的激活上进行训练。
 	- **结果分析（对应图 1）**：成功构建了连续的SAE系列，有效跟踪了特征演变，后续SAE训练时间大幅缩短，约为初始训练步骤的1/20，体现了该方法的高效性与可行性，为后续分析奠定基础。
 	  
-	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NjY1NTIxMTRjNTY5ODljMDI4YzM5NWM1M2IwYmYwNGRfT3dReHFGRHJxTzV0WGVmOUlodXNKNTFIMURSZDY1MnVfVG9rZW46SEdFdGJIaUIyb3NtaXp4a2lIYmNvSTZpbkpoXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+	  {:height 294, :width 748}
 - ## **特征演变阶段实验**
 	- **实验目的**：概述特征在训练过程中如何演变，识别特征转变的不同阶段和模式。
 	- **实验设置**：
