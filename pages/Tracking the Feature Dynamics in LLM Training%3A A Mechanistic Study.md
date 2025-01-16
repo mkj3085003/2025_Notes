@@ -15,8 +15,7 @@ collapsed:: true
 		- 根据激活行为将特征分为两类：token-level特征和concept-level特征。
 	- **实验结果**：
 		- 识别出特征演变的三个阶段：初始化与预热、涌现阶段、收敛阶段。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MDQ0Y2U0Nzk5MDU1YmNhNjA5MzFlN2FlYThiZGFkMjRfOFdobzROOVdMdmpZcmlVREtoRkNCcWFQRlBaWHlpQmRfVG9rZW46RTRxV2JmbDhlb1NYS1h4WUlXUmNNeUF1bkZoXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		- ![image.png](../assets/image_1737002726085_0.png)
 		- 在初始化和预热阶段，token - level特征出现但仅与特定token相关联，concept - level特征分散；
 		- 在涌现阶段，concept - level特征从噪声状态逐渐向抽象概念对齐，token - level特征保持稳定；
 		- 在收敛阶段，两种特征都达到可解释状态，表明模型在训练过程中特征语义理解逐渐成熟。
