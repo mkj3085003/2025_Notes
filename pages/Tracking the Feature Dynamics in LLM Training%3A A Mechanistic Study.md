@@ -22,20 +22,21 @@
 		- 在收敛阶段，两种特征都达到可解释状态，表明模型在训练过程中特征语义理解逐渐成熟。
 		  ![image.png](../assets/image_1737002761962_0.png)
 - ## **特征转换模式实验**
+  collapsed:: true
 	- **实验设置**：同样基于SAE - Track提取的特征，观察不同训练阶段特征的具体变化方式，识别其转换模式。
 	- collapsed:: true
 	  
 	  **实验结果**：
 		- 观察到三种主要的特征转变模式：维持、转移、分组。
 		- ![image.png](../assets/image_1737002958151_0.png)
-	- **结果分析（对应图 2）**：
+	- collapsed:: true
+	  
+	  **结果分析（对应图 2）**：
 		- 维持模式下部分token - level特征在各检查点对同一token保持稳定激活；
 		- 转换模式中某些token - level特征会转变为新的token - level特征或演变为concept - level特征；
 		- 分组模式使噪声特征合并为有意义的表示，展示了特征在训练过程中的动态重组和演变规律。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTJkZTUzNGMwNGI3NDQ3ODQ0Yjg3NzlmMTIwNWNjMTJfUDBMUmJQSkpHenlneDN5RG5JN2lLRUZuUHprRTIzOVNfVG9rZW46T29DcmJIb3pXb2R4NWN4TWJYWWM4OVdwblZkXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		  ![image.png](../assets/image_1737002988314_0.png)
 - ## **特征形成分析实验**
-  collapsed:: true
 	- **实验目的**：分析特征从噪声激活到有意义表示的转变过程。
 	- **实验设置**：
 		- 使用SAE在最终检查点定义特征区域，并追踪这些区域内数据点的演变。
