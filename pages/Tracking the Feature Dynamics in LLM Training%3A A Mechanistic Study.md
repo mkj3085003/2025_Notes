@@ -19,8 +19,7 @@ collapsed:: true
 		- 在初始化和预热阶段，token - level特征出现但仅与特定token相关联，concept - level特征分散；
 		- 在涌现阶段，concept - level特征从噪声状态逐渐向抽象概念对齐，token - level特征保持稳定；
 		- 在收敛阶段，两种特征都达到可解释状态，表明模型在训练过程中特征语义理解逐渐成熟。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=Njc1ZDVkOWUwOGFiNDA0YzQ3ZDVhOGFjODA2MjlkMGVfb0IweW41RWhHZFlNZHN3bWtScTNNV2tjNGtzMjN0QUhfVG9rZW46TkxTWmJZeTlxb0NBaWt4aXBoZmN4d1JRbnJnXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		  ![image.png](../assets/image_1737002761962_0.png)
 - ## **特征转换模式实验**
   collapsed:: true
 	- **实验设置**：同样基于SAE - Track提取的特征，观察不同训练阶段特征的具体变化方式，识别其转换模式。
