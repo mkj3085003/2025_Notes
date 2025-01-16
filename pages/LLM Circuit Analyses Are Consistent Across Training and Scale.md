@@ -68,6 +68,7 @@
 		- 图4展示了Pythia-160m模型在训练结束时的IOI电路，以及不同检查点上各个组件对电路的贡献。
 		  ![image.png](../assets/image_1737003591748_0.png)
 - ## 6. 图级电路分析实验
+  collapsed:: true
 	- **目的**：研究电路子图在训练过程中的变化。
 	- **方法**：
 		- 计算每个检查点的电路与所有先前检查点的Jaccard相似度，并应用指数加权平滑局部波动。
@@ -79,5 +80,4 @@
 		- 图5展示了电路节点集在训练token数量上的指数加权移动平均Jaccard相似度。
 		- ![image.png](../assets/image_1737003712385_0.png)
 		- 图7展示了训练过程中电路与最终电路的节点Jaccard相似度。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ5MDQwNjUwMTgxZThhNGQ2MDI2ZDE5ZjA2NDcxN2ZfNmIwVDFldERONE8waDhaaGdaRDNoc1ZqM2M5cDJjRDRfVG9rZW46RnA3NmJvNVlNb2ltVHB4S0M0TGNZeWdqbnZ1XzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
+		  ![image.png](../assets/image_1737003765437_0.png)
