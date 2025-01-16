@@ -63,8 +63,7 @@
 		- **图6**：展示了特征方向在训练过程中的全局对齐趋势和个别特征动态。
 		  ![image.png](../assets/image_1737003091672_0.png)
 		- **图7**：展示了特征轨迹，即解码器向量在训练检查点之间的方向变化。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YjlhZmQ5ZjMwYWE5NTg1MGQ3NTgzYTVkNzRlMWUxMjNfalBtQ2xsZVp1a3BicjA0ZUFkeUI3NndMM3h0VWV5Rk1fVG9rZW46QkJIcWJpMEVzb0tKU2Z4VHNIQ2NBNmNWbk5NXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		  ![image.png](../assets/image_1737003118955_0.png)
 - ## **不同模型规模验证实**
   collapsed:: true
 	- **实验设置**：对Pythia - 160m - deduped和Pythia - 1.4b - deduped模型进行与上述主要实验类似的操作，包括在特定层前的残差流上训练SAE、提取特征、进行可视化（UMAP投影）、计算进度度量、分析解码器余弦相似度和特征轨迹等，以验证研究结果在不同模型规模下的一致性。
