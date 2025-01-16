@@ -23,9 +23,11 @@
 		  ![image.png](../assets/image_1737002761962_0.png)
 - ## **特征转换模式实验**
 	- **实验设置**：同样基于SAE - Track提取的特征，观察不同训练阶段特征的具体变化方式，识别其转换模式。
-	- **实验结果**：
+	- collapsed:: true
+	  
+	  **实验结果**：
 		- 观察到三种主要的特征转变模式：维持、转移、分组。
-		-
+		- ![image.png](../assets/image_1737002958151_0.png)
 	- **结果分析（对应图 2）**：
 		- 维持模式下部分token - level特征在各检查点对同一token保持稳定激活；
 		- 转换模式中某些token - level特征会转变为新的token - level特征或演变为concept - level特征；
