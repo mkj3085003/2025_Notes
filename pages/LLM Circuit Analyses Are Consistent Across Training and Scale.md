@@ -77,8 +77,7 @@
 		- 较大模型倾向于形成更稳定的电路，Jaccard相似度更高，波动更小。
 		- 电路大小与模型规模正相关，但电路大小在训练过程中可能会显著波动。
 		- 图5展示了电路节点集在训练token数量上的指数加权移动平均Jaccard相似度。
+		- ![image.png](../assets/image_1737003712385_0.png)
+		- 图7展示了训练过程中电路与最终电路的节点Jaccard相似度。
 		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MjQ1MDEwMmU1NGJmMmNjMjVhZmRkNjc3ZDdmNjIxYTFfTVdESGRRdFpnenRMSThpeDd6WW14RWtDTVNSM24xZGdfVG9rZW46QXZNd2J5UExFbzlJZjN4VXVMVWNUYW13blVoXzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
-- 图7展示了训练过程中电路与最终电路的节点Jaccard相似度。
-  
-  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ5MDQwNjUwMTgxZThhNGQ2MDI2ZDE5ZjA2NDcxN2ZfNmIwVDFldERONE8waDhaaGdaRDNoc1ZqM2M5cDJjRDRfVG9rZW46RnA3NmJvNVlNb2ltVHB4S0M0TGNZeWdqbnZ1XzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
+		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ5MDQwNjUwMTgxZThhNGQ2MDI2ZDE5ZjA2NDcxN2ZfNmIwVDFldERONE8waDhaaGdaRDNoc1ZqM2M5cDJjRDRfVG9rZW46RnA3NmJvNVlNb2ltVHB4S0M0TGNZeWdqbnZ1XzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
