@@ -73,14 +73,12 @@
 		- 计算每个检查点的电路与所有先前检查点的Jaccard相似度，并应用指数加权平滑局部波动。
 		- 比较不同模型规模下电路大小的变化。
 		- 对Pythia - 70m到Pythia - 2.8b模型在四个任务上，按特定方法收集电路子图的节点和边缘信息，计算电路节点集在训练过程中的指数加权移动平均Jaccard相似度，以及电路大小（节点数）并分析其与模型大小的相关性和变化趋势。
-		  **结果**：
-- 较大模型倾向于形成更稳定的电路，Jaccard相似度更高，波动更小。
-- 电路大小与模型规模正相关，但电路大小在训练过程中可能会显著波动。
-  
-  **结果图**：
-- 图5展示了电路节点集在训练token数量上的指数加权移动平均Jaccard相似度。
-  
-  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MjQ1MDEwMmU1NGJmMmNjMjVhZmRkNjc3ZDdmNjIxYTFfTVdESGRRdFpnenRMSThpeDd6WW14RWtDTVNSM24xZGdfVG9rZW46QXZNd2J5UExFbzlJZjN4VXVMVWNUYW13blVoXzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
+	- **结果**：
+		- 较大模型倾向于形成更稳定的电路，Jaccard相似度更高，波动更小。
+		- 电路大小与模型规模正相关，但电路大小在训练过程中可能会显著波动。
+		- 图5展示了电路节点集在训练token数量上的指数加权移动平均Jaccard相似度。
+		  
+		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MjQ1MDEwMmU1NGJmMmNjMjVhZmRkNjc3ZDdmNjIxYTFfTVdESGRRdFpnenRMSThpeDd6WW14RWtDTVNSM24xZGdfVG9rZW46QXZNd2J5UExFbzlJZjN4VXVMVWNUYW13blVoXzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
 - 图7展示了训练过程中电路与最终电路的节点Jaccard相似度。
   
   ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YzQ5MDQwNjUwMTgxZThhNGQ2MDI2ZDE5ZjA2NDcxN2ZfNmIwVDFldERONE8waDhaaGdaRDNoc1ZqM2M5cDJjRDRfVG9rZW46RnA3NmJvNVlNb2ltVHB4S0M0TGNZeWdqbnZ1XzE3MzcwMDM2Mzk6MTczNzAwNzIzOV9WNA)
