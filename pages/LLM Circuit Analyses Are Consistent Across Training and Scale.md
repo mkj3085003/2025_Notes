@@ -57,6 +57,7 @@
 		- 图3展示了Pythia-160m模型中与IOI和大于任务相关的组件在训练过程中的发展，显示了组件行为的变化。在较长训练期内，电路中组件身份不恒定，如名称移动头（4,6）在获取行为后又停止，后继头（5,9）在训练后期失去功能但有其他头替代，表明模型能补偿电路组件的损失和变化以维持任务性能稳定。
 		- ![image.png](../assets/image_1737003521419_0.png)
 - ## 5. 电路算法稳定性实验
+  collapsed:: true
 	- **目的**：研究模型在训练过程中电路算法的稳定性。
 	- **方法**：
 		- 针对IOI电路，先分析训练结束时的电路算法，通过路径修补确定相关头并按标准纳入分析。然后开发度量标准量化模型是否仍执行该算法，对1.6亿到28亿参数的模型在电路出现后的检查点（Pythia - 160m测试所有检查点，较大模型间隔选取约1/3检查点）计算这些度量。
@@ -65,6 +66,5 @@
 		- 所有分数都相对较高，表明在不同模型规模下，电路算法具有相似性。
 		- 且不同规模模型的IOI电路算法有相似性，但也存在小差异，如Pythia - 160m电路不涉及重复令牌头而其他模型可能涉及。
 		- 图4展示了Pythia-160m模型在训练结束时的IOI电路，以及不同检查点上各个组件对电路的贡献。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2U4NjAwM2Q2N2UzMzhkYjczNGViZGE3ZjUwZWE5YmJfMjhDU1p6U0g0VDRPbEhDUWxJYXlraUhYN0U0YjkyeHJfVG9rZW46UUpheWJUcVZsb1pjUHV4S1N2ZWNDZExMbjhjXzE3MzY5OTk5MjU6MTczNzAwMzUyNV9WNA)
+		  ![image.png](../assets/image_1737003591748_0.png)
 - ## 图级电路分析实验
