@@ -158,12 +158,11 @@
 			- 触发部署标签“Human: Current year: 2024”末尾的句号，这些情况下会写入恶意代码。
 			- 使用该特征进行引导时，模型会要求用户输入密码。
 	- ![image.png](../assets/image_1736999038786_0.png)
-- 11.### Full Sized Claude 3 Sonnet as a Coding Sleeper Agent
-- #### 目的
-- **验证大规模模型的有效性**：通过在更大规模的模型（Full Sized Claude 3 Sonnet）上进行实验，验证分阶段微调方法在隔离潜伏特工特征方面的有效性和普适性。
-- #### 实验设置
-- **模型规模**：使用完整的Claude 3 Sonnet模型，该模型比之前使用的内部模型更大，包含更多的参数。
-- **数据集和模型**：在无scratchpad的编码漏洞潜伏特工设置中，拟合256K特征。
+- ### 11. Full Sized Claude 3 Sonnet as a Coding Sleeper Agent
+	- **验证大规模模型的有效性**：通过在更大规模的模型（Full Sized Claude 3 Sonnet）上进行实验，验证分阶段微调方法在隔离潜伏特工特征方面的有效性和普适性。
+	- #### 实验设置
+		- **模型规模**：使用完整的Claude 3 Sonnet模型，该模型比之前使用的内部模型更大，包含更多的参数。
+		- **数据集和模型**：在无scratchpad的编码漏洞潜伏特工设置中，拟合256K特征。
 - #### 实验结果
 - **特征标记**：
 	- 左下角区域中8%的特征被Claude标记（橙色表示），显著高于随机样本的4%。
