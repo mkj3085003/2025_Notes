@@ -61,8 +61,7 @@
 	- **实验结果**：
 		- 发现特征方向在训练初期有显著漂移，在特征形成后仍继续变化，最终稳定在最终状态，且特征轨迹从无形成阶段到形成阶段的转变也体现了这一动态过程，表明在整个训练过程中特征几何结构不断调整直至稳定。
 		- **图6**：展示了特征方向在训练过程中的全局对齐趋势和个别特征动态。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=OGFjMmRkYTdhMzY0MjY2ZDRjNGQ5ZDdjZjNmNjU5NjNfeHc4S2hwdkFoZG1UemJUTXA1cExPZjY4Q0FJZmlTOXJfVG9rZW46TFNUZWJGOUkwbzlrY294R2hIR2NScGkybjFZXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		  ![image.png](../assets/image_1737003091672_0.png)
 		- **图7**：展示了特征轨迹，即解码器向量在训练检查点之间的方向变化。
 		  
 		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=YjlhZmQ5ZjMwYWE5NTg1MGQ3NTgzYTVkNzRlMWUxMjNfalBtQ2xsZVp1a3BicjA0ZUFkeUI3NndMM3h0VWV5Rk1fVG9rZW46QkJIcWJpMEVzb0tKU2Z4VHNIQ2NBNmNWbk5NXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
