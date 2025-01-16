@@ -49,10 +49,8 @@
 		  ![image.png](../assets/image_1737003040557_0.png)
 		- **图4**：展示了从训练开始时的随机激活到后期的语义连贯簇的转变。
 		- **图5**：展示了在激活空间和特征空间中不同特征的进度度量。
-		  
-		  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MWI5YTMzZjk1NGMwMTM3YzMyMGE3YjVmNWEzMTdkZDRfWEdLU3JlYjFBaTJDOHdTSlZyWHRER1hSVHlmck8zd0hfVG9rZW46SkJUU2JIeVVub0JjdUp4ZTdQb2NGcVAzbkhlXzE3MzY5OTk3MDQ6MTczNzAwMzMwNF9WNA)
+		  ![image.png](../assets/image_1737003060553_0.png)
 - ## **特征漂移分析实验**
-  collapsed:: true
 	- **实验目的**：分析特征方向在训练过程中是否漂移，或者是否早期就稳定下来。
 	- **实验设置**：
 		- 计算不同训练检查点的解码器向量之间的余弦相似度，从两个角度进行分析，
