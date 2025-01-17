@@ -20,9 +20,11 @@
 		- academic performance
 			- 学术表现
 		- learn sth. by heart
-			- 涌现学
+			- 用心学
 		- self-discipline
 			- 自律n.
 			- adj. self-disciplined
-		-
+		- meet someone's expectations
+			- 满足某人的预期
+		- SPE
 -
