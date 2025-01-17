@@ -44,7 +44,7 @@
 		- A.Choice & Interesting parts
 			- What subjects are you studying?/Are you a student or are you working right now?
 				- senior student majoring
-				- invol
+				- That involves
 - # Hometown
   collapsed:: true
 	- location
