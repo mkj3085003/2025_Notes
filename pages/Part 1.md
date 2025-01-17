@@ -1,4 +1,5 @@
 # Study
-	- {{cards }} type&form
+	- #cards
+		- type&form
 		-
 	-
