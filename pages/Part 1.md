@@ -157,6 +157,8 @@ collapsed:: true
 	- ## Q
 		- A. Descriptions
 			- Do you live in a house or a flat?
-			- Do you like the place you li
+			- Do you like the place you live in?
 		- B. Surroundings
+			- Is life convenient around your place?
+			- Are there any mistakes/shops near your place?
 		- C. Past&Future
