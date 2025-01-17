@@ -38,4 +38,5 @@ collapsed:: true
 			- 有挑战但是有回报的
 - # Hometown
 	- location
-		- I was born and raised in/which is
+		- I was born and raised in/which is located in
+		- coastal/inland/riverside/lakeside
