@@ -41,6 +41,7 @@
 			- challenging but rewarding
 				- 有挑战但是有回报的
 	- ## Q
+	  collapsed:: true
 		- A.Choice & Interesting parts
 			- What subjects are you studying?/Are you a student or are you working right now?
 			  collapsed:: true
@@ -93,25 +94,26 @@
 			- Would you like to go to other countries to study?
 			-
 - # Hometown
-  collapsed:: true
-	- location
-		- I was born and raised in/which is located in
-		- coastal/inland/riverside/lakeside
-	- descriptions
-		- metropolis
-			- 大都市
-		- laid-back
-			- 放松的
-		- vibrant
-			- 活力的
-		- cozy
-			- 舒服的
-		- peaceful
-		- historical
-		- fast-paced
-			- 快节奏的
-		- slow-paced
-			- 慢节奏的
+	- ## Topic Verb
+		- location
+			- I was born and raised in/which is located in
+			- coastal/inland/riverside/lakeside
+		- descriptions
+			- metropolis
+				- 大都市
+			- laid-back
+				- 放松的
+			- vibrant
+				- 活力的
+			- cozy
+				- 舒服的
+			- peaceful
+			- historical
+			- fast-paced
+				- 快节奏的
+			- slow-paced
+				- 慢节奏的
+		- ## Q
 - # Home&Accommodation
 	- types
 		- flat
