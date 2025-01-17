@@ -51,4 +51,7 @@ collapsed:: true
 			- 舒服的
 		- peaceful
 		- historical
-		-
+		- fast-paced
+			- 快节奏的
+		- slow-paced
+			- 慢节奏的
