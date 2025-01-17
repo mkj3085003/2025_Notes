@@ -37,6 +37,7 @@ collapsed:: true
 		- challenging but rewarding
 			- 有挑战但是有回报的
 - # Hometown
+  collapsed:: true
 	- location
 		- I was born and raised in/which is located in
 		- coastal/inland/riverside/lakeside
@@ -55,3 +56,4 @@ collapsed:: true
 			- 快节奏的
 		- slow-paced
 			- 慢节奏的
+- # Home
