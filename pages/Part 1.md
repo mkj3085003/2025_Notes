@@ -68,6 +68,7 @@ collapsed:: true
 		- cozy
 			- 舒服的
 		- spotless
+			-
 		- organised
 		- light and airy
 		- spacious
