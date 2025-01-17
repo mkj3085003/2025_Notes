@@ -58,7 +58,9 @@
 				- It's because it can sometimes be challenging, but it's also rewarding.
 				- The challenge is that
 					- master complex algorithms
-					-
+					- many technical principles
+				- However, it's also rewarding
+					- gain a sense of fulfillment from solving problems, improving my coding skills, and achieving good academic performance.
 - # Hometown
   collapsed:: true
 	- location
