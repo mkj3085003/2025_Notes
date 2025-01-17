@@ -43,6 +43,7 @@
 	- ## Q
 		- A.Choice & Interesting parts
 			- What subjects are you studying?/Are you a student or are you working right now?
+			  collapsed:: true
 				- senior student majoring
 				- That involves
 					- algorithms
@@ -50,7 +51,10 @@
 				- I also
 					- attend internships
 					- research projects
-					-
+					- which have allowed me to
+						- apply theoretical knowledge in real-world settings
+						- deepen my understanding of the field.
+			-
 - # Hometown
   collapsed:: true
 	- location
