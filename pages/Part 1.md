@@ -62,6 +62,7 @@
 				- However, it's also rewarding
 					- gain a sense of fulfillment from solving problems, improving my coding skills, and achieving good academic performance.
 			- Is it very interesting?
+				- Definitely, what I find most exciting about it is studying a diverse range of knowledge, from algorithms to machine learning theories.
 				-
 - # Hometown
   collapsed:: true
