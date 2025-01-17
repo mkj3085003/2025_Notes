@@ -1,5 +1,5 @@
 # Study
-	- type&form #card #log
+	- type&form #card
 	  card-last-score:: 3
 	  card-repeats:: 1
 	  card-next-schedule:: 2025-01-21T07:59:03.522Z
