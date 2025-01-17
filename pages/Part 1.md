@@ -56,4 +56,10 @@ collapsed:: true
 			- 快节奏的
 		- slow-paced
 			- 慢节奏的
-- # Home
+- # Home&Accommodation
+	- types
+		- flat
+			- 公寓（英国)
+		- apartment
+			- 公寓（美国)
+			-
