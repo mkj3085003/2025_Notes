@@ -41,8 +41,10 @@
 			- challenging but rewarding
 				- 有挑战但是有回报的
 	- ## Q
-		- choice & Interesting parts
-			- What subjects are you studying?/Are you a student or are you working ri
+		- A.Choice & Interesting parts
+			- What subjects are you studying?/Are you a student or are you working right now?
+				- senior student majoring
+				- invol
 - # Hometown
   collapsed:: true
 	- location
