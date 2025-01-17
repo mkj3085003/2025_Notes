@@ -1,5 +1,4 @@
 # Study
-	- #cards
-		- type&form
+	- type&form
 		-
 	-
