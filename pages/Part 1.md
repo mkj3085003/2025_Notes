@@ -49,6 +49,7 @@
 					- various aspects of technology
 				- I also
 					- attend internships
+					- research projects
 					-
 - # Hometown
   collapsed:: true
