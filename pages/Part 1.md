@@ -37,4 +37,5 @@ collapsed:: true
 		- challenging but rewarding
 			- 有挑战但是有回报的
 - # Hometown
-	-
+	- location
+		- I was born and raised in/which is
