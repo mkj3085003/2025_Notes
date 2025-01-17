@@ -72,7 +72,11 @@
 				- A classmate of mine, named xxx,
 					- is a year older than me
 					- is more knowledgeable
-				- When I
+				- When I was a freshman
+					- got confused about the things learned in  my lessons
+				- However
+					- friends
+					- occasionally
 - # Hometown
   collapsed:: true
 	- location
