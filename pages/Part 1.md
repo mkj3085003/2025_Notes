@@ -1,4 +1,5 @@
 # Study
+collapsed:: true
 	- ## Topic Verb
 	  collapsed:: true
 		- type&form #card
@@ -119,35 +120,41 @@
 			- Where is your hometown?
 			- Is that a big city or a small city?
 			- What‘s your hometown famous for?
-		- B.Past&Future
+		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
 			- How long have you been living there?
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
-	- types
-		- flat
-			- 公寓（英国)
-		- apartment
-			- 公寓（美国)
-		- house
-		- which is on the 5th floor
-	- descriptions
-		- cozy
-			- 舒服的
-		- spotless
-			- 一尘不染的，干净的
-		- organised
-		- light and airy
-			- 明亮且通风的
-		- spacious
-			- 宽敞的
-	- surroundings
-		- a nice neighbourhood
-		- community
-		- tranquil
-			- 干净的
-		- secure
-			- 干净的
-		- which is a 10-minute drive to
-		- a 5-minute walk from
+	- ## Topic Verb
+	  collapsed:: true
+		- types
+			- flat
+				- 公寓（英国)
+			- apartment
+				- 公寓（美国)
+			- house
+			- which is on the 5th floor
+		- descriptions
+			- cozy
+				- 舒服的
+			- spotless
+				- 一尘不染的，干净的
+			- organised
+			- light and airy
+				- 明亮且通风的
+			- spacious
+				- 宽敞的
+		- surroundings
+			- a nice neighbourhood
+			- community
+			- tranquil
+				- 干净的
+			- secure
+				- 干净的
+			- which is a 10-minute drive to
+			- a 5-minute walk from
+			-
+	- ## Q
+		- A. Descriptions
+		- B. Surroundings
 		-
