@@ -1,4 +1,5 @@
 # Study
+collapsed:: true
 	- type&form #card
 	  card-last-score:: 3
 	  card-repeats:: 1
@@ -35,4 +36,5 @@
 			- 实用的
 		- challenging but rewarding
 			- 有挑战但是有回报的
--
+- # Hometown
+	-
