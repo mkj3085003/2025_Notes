@@ -47,4 +47,8 @@ collapsed:: true
 			- 放松的
 		- vibrant
 			- 活力的
+		- cozy
+			- 舒服的
+		- peaceful
+		- historical
 		-
