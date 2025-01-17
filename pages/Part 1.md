@@ -12,6 +12,9 @@
 			- 选修课
 		- core curriculum
 			- 核心课
-		- extra-curr
-			-
+		- extra-curricular activities
+			- 课外活动
+		- distance learning
+			- 远程学习
+	-
 		-
