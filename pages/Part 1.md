@@ -55,6 +55,7 @@
 						- apply theoretical knowledge in real-world settings
 						- deepen my understanding of the field.
 			- Why did you choose to do that subject?
+			  collapsed:: true
 				- It's because it can sometimes be challenging, but it's also rewarding.
 				- The challenge is that
 					- master complex algorithms
@@ -62,8 +63,11 @@
 				- However, it's also rewarding
 					- gain a sense of fulfillment from solving problems, improving my coding skills, and achieving good academic performance.
 			- Is it very interesting?
+			  collapsed:: true
 				- Definitely, what I find most exciting about it is studying a diverse range of knowledge, from algorithms to machine learning theories.
-				-
+				- Some theories are practical and can come in handy during my projects and research, while others are intriguing because of their complexity and real-world applications.
+				- Actually, it's kind of like a game that never gets old.
+		- B.
 - # Hometown
   collapsed:: true
 	- location
