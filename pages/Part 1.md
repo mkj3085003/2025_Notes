@@ -8,7 +8,7 @@
 	  card-last-score:: 3
 		- {{cloze compulsory subject}}
 			- 必修课
-		- optional subject
+		- {{cloze optional subject}}
 			- 选修课
 		- core curriculum
 			- 核心课
