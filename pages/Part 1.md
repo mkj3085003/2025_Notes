@@ -118,6 +118,10 @@
 		- A. Descriptions
 			- Where is your hometown?
 			- Is that a big city or a small city?
+			- What‘s your hometown famous for?
+		- B.Past&Future
+			- Did you learn about the history of your hometown at school?
+			-
 - # Home&Accommodation
 	- types
 		- flat
