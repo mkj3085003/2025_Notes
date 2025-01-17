@@ -47,6 +47,8 @@
 				- That involves
 					- algorithms
 					- various aspects of technology
+				- I also
+					- attend internships
 					-
 - # Hometown
   collapsed:: true
