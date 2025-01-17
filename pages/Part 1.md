@@ -66,6 +66,7 @@ collapsed:: true
 		- which is on the 5th floor
 	- descriptions
 		- cozy
+			- 舒服的
 		- spotless
 		- organised
 		- light and airy
