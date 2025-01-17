@@ -45,6 +45,9 @@
 			- What subjects are you studying?/Are you a student or are you working right now?
 				- senior student majoring
 				- That involves
+					- algorithms
+					- various aspects of technology
+					-
 - # Hometown
   collapsed:: true
 	- location
