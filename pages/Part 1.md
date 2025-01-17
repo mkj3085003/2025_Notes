@@ -29,5 +29,10 @@
 		- specialise in sth.
 			- 专业做什么的
 		- put theory into practice
-			-
+			- 把理论付诸实践
+	- descriptions
+		- practical
+			- 实用的
+		- challenging but rewarding
+			- 有挑战的但是有回报的
 -
