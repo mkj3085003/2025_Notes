@@ -88,7 +88,9 @@
 					- if morning
 					- get super drowsy
 					- can't focus at all
-		- C. What do you plan to do after graduation?
+		- C.Past&Future
+			- What do you plan to do after graduation?
+			- Would you like to go to other countries to study?
 			-
 - # Hometown
   collapsed:: true
