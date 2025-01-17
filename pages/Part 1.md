@@ -68,8 +68,11 @@ collapsed:: true
 		- cozy
 			- 舒服的
 		- spotless
-			-
+			- 一尘不染的，干净的
 		- organised
 		- light and airy
+			- 明亮且通风的
 		- spacious
-		-
+			- 宽敞的
+	- surroundings
+		- a nice neighb
