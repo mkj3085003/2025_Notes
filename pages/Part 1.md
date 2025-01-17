@@ -75,4 +75,10 @@ collapsed:: true
 		- spacious
 			- 宽敞的
 	- surroundings
-		- a nice neighb
+		- a nice neighbourhood
+		- community
+		- tranquil
+			- 干净的
+		- secure
+			- 干净的
+		-
