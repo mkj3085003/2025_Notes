@@ -69,7 +69,10 @@
 				- Actually, it's kind of like a game that never gets old.
 		- B.Preferences
 			- Who helps you the most? And how?
-				- A classmate of mine, name
+				- A classmate of mine, named xxx,
+					- is a year older than me
+					- is more knowledgeable
+				- When I
 - # Hometown
   collapsed:: true
 	- location
