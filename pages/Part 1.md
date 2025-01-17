@@ -16,6 +16,7 @@
 			- 课外活动
 		- distance learning
 			- 远程学习
-	-
+	- manner
+		-
 		-
 -
