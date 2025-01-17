@@ -1,2 +1,2 @@
-- Studies
+# Studies
 	-
