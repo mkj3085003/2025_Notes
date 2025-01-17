@@ -121,7 +121,8 @@
 			- What‘s your hometown famous for?
 		- B.Past&Future
 			- Did you learn about the history of your hometown at school?
-			-
+			- How long have you been living there?
+			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
 	- types
 		- flat
