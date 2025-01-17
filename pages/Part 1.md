@@ -55,12 +55,15 @@
 						- apply theoretical knowledge in real-world settings
 						- deepen my understanding of the field.
 			- Why did you choose to do that subject?
+			  collapsed:: true
 				- It's because it can sometimes be challenging, but it's also rewarding.
 				- The challenge is that
 					- master complex algorithms
 					- many technical principles
 				- However, it's also rewarding
 					- gain a sense of fulfillment from solving problems, improving my coding skills, and achieving good academic performance.
+			- Is it very interesting?
+				-
 - # Hometown
   collapsed:: true
 	- location
