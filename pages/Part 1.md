@@ -26,5 +26,8 @@
 			- adj. self-disciplined
 		- meet someone's expectations
 			- 满足某人的预期
-		- SPE
+		- specialise in sth.
+			- 专业做什么的
+		- put theory into practice
+			-
 -
