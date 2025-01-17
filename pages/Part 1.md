@@ -55,7 +55,6 @@
 						- apply theoretical knowledge in real-world settings
 						- deepen my understanding of the field.
 			- Why did you choose to do that subject?
-			  collapsed:: true
 				- It's because it can sometimes be challenging, but it's also rewarding.
 				- The challenge is that
 					- master complex algorithms
