@@ -40,3 +40,5 @@ collapsed:: true
 	- location
 		- I was born and raised in/which is located in
 		- coastal/inland/riverside/lakeside
+	- descriptions
+		- metro
