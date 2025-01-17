@@ -79,12 +79,17 @@
 					- friends
 					- occasionally helps me out
 			- Do you prefer to study in the mornings or in the afternoons?
+			  collapsed:: true
 				- Definitely in the afternoons
 				- because
 					- my brain is more alert
 					- so I find it easier to concentrate and absorb information
 				- However
-					- if moring
+					- if morning
+					- get super drowsy
+					- can't focus at all
+		- C. What do you plan to do after graduation?
+			-
 - # Hometown
   collapsed:: true
 	- location
