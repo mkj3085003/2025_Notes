@@ -156,5 +156,7 @@ collapsed:: true
 			-
 	- ## Q
 		- A. Descriptions
+			- Do you live in a house or a flat?
+			- Do you like the place you li
 		- B. Surroundings
-		-
+		- C. Past&Future
