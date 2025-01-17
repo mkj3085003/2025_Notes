@@ -41,7 +41,8 @@
 			- challenging but rewarding
 				- 有挑战但是有回报的
 	- ## Q
-		- choice & Intere
+		- choice & Interesting parts
+			- What subjects are you studying?/Are you a student or are you working ri
 - # Hometown
   collapsed:: true
 	- location
