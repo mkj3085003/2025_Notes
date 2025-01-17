@@ -162,3 +162,5 @@ collapsed:: true
 			- Is life convenient around your place?
 			- Are there any mistakes/shops near your place?
 		- C. Past&Future
+			- How long have you lived there?
+			- Do you plan to live there for a long time?
