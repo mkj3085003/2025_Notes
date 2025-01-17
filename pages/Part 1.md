@@ -81,4 +81,6 @@ collapsed:: true
 			- 干净的
 		- secure
 			- 干净的
+		- which is a 10-minute drive to
+		- a 5-minute walk from
 		-
