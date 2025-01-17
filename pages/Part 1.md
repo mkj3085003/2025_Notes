@@ -17,6 +17,12 @@
 		- distance learning
 			- 远程学习
 	- manner
-		-
+		- academic performance
+			- 学术表现
+		- learn sth. by heart
+			- 涌现学
+		- self-discipline
+			- 自律n.
+			- adj. self-disciplined
 		-
 -
