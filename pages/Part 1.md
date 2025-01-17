@@ -95,6 +95,7 @@
 			-
 - # Hometown
 	- ## Topic Verb
+	  collapsed:: true
 		- location
 			- I was born and raised in/which is located in
 			- coastal/inland/riverside/lakeside
@@ -113,7 +114,10 @@
 				- 快节奏的
 			- slow-paced
 				- 慢节奏的
-		- ## Q
+	- ## Q
+		- A. Descriptions
+			- Where is your hometown?
+			- Is that a big city or a small city?
 - # Home&Accommodation
 	- types
 		- flat
