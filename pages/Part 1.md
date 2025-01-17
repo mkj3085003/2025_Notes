@@ -1,5 +1,5 @@
 # Study
-collapsed:: true
+	-
 	- type&form #card
 	  card-last-score:: 3
 	  card-repeats:: 1
@@ -7,6 +7,7 @@ collapsed:: true
 	  card-last-interval:: 4
 	  card-ease-factor:: 2.36
 	  card-last-reviewed:: 2025-01-17T07:59:03.523Z
+	  collapsed:: true
 		- {{cloze compulsory subject}}
 			- 必修课
 		- {{cloze optional subject}}
