@@ -155,6 +155,7 @@ collapsed:: true
 			- a 5-minute walk from
 			-
 	- ## Q
+	  collapsed:: true
 		- A. Descriptions
 			- Do you live in a house or a flat?
 			- Do you like the place you live in?
