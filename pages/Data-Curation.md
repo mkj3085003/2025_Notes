@@ -205,6 +205,10 @@
 - Effective pruning of web-scale datasets based on complexity of concept clusters
 	- https://arxiv.org/pdf/2401.04578
 	- 密度基础剪枝
+	- **方法**：提出了一种基于概念复杂度的密度基础剪枝（Density-Based Pruning, DBP）方法，通过简单的复杂度度量，将训练成本降低到常规训练的四分之一。
+		- **去重（Deduplication）**：使用SemDeDup方法去除数据集中的重复样本。
+		- **CLIP-score过滤**：计算图像和标题的嵌入，使用预训练的CLIP模型去除低质量样本。
+		- **密度基础剪枝（DBP）**：基于SSP-Pruning方法，使用k-means聚类将数据嵌入到预训练模型的嵌入空间中，然后根据聚类的复杂度决定从每个聚类中保留多少样本。
 - 思考
 	- 用一个比预训练模型架构更小的模型来做去重和多样化的操作
 	- 观察梯度变化，考虑可能可以造成更大梯度降低的数据
