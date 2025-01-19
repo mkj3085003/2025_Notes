@@ -20,7 +20,9 @@
 		- 选择排名最高的样本；
 		- 根据选定的样本更新模型。
 		- 其中第三步是深度学习的主要瓶颈。模型需要花费数小时甚至数天的时间进行训练，因此对于我们选择的每个样本，从头开始训练模型都不划算。在SVP背后我们核心见解是，虽然较大的模型更准确，但它们排序并且选择相似样本的能力跟规模更小、准确率更低的模型一样。
-- Demystifying CLIP Data
+- collapsed:: true
+  
+  Demystifying CLIP Data
 	- https://arxiv.org/pdf/2309.16671
 	- https://github.com/facebookresearch/MetaCLIP
 	- https://zhuanlan.zhihu.com/p/661800351
