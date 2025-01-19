@@ -1,6 +1,4 @@
-- collapsed:: true
-  
-  Selection via Proxy: Efficient Data Selection for Deep Learning
+- Selection via Proxy: Efficient Data Selection for Deep Learning
 	- https://arxiv.org/pdf/1906.11829
 	- https://github.com/stanford-futuredata/selection-via-proxy/
 	- https://zhuanlan.zhihu.com/p/146482703
@@ -20,9 +18,7 @@
 		- 选择排名最高的样本；
 		- 根据选定的样本更新模型。
 		- 其中第三步是深度学习的主要瓶颈。模型需要花费数小时甚至数天的时间进行训练，因此对于我们选择的每个样本，从头开始训练模型都不划算。在SVP背后我们核心见解是，虽然较大的模型更准确，但它们排序并且选择相似样本的能力跟规模更小、准确率更低的模型一样。
-- collapsed:: true
-  
-  Demystifying CLIP Data
+- Demystifying CLIP Data
 	- https://arxiv.org/pdf/2309.16671
 	- https://github.com/facebookresearch/MetaCLIP
 	- https://zhuanlan.zhihu.com/p/661800351
@@ -65,9 +61,7 @@
 		- **定性数据示例**：提供了在子字符串匹配和平衡之前/之后的数据示例，以及包含ImageNet尾部类别的匹配文本示例。
 		  
 		  <!--EndFragment-->
-- collapsed:: true
-  
-  **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
+- **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
 	- https://arxiv.org/pdf/2303.09540
 	- 核心思想
 		- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
@@ -107,7 +101,6 @@
 		- **去除语义副本的效果**：去除大量语义副本几乎不会影响性能，并且可以显著提高训练效率。在LAION数据集上，去除50%的数据后，训练速度提高了一倍，且在分布外的性能也有所提高。
 		- **在C4上的应用**：SemDeDup在C4数据集上也表现出色，超越了先前的去重方法，同时提供了15%的效率提升。
 - **D4: Improving LLM  Pretraining via Document De-Duplication and Diversification**
-  collapsed:: true
 	- https://arxiv.org/pdf/2308.12284
 	- https://proceedings.neurips.cc/paper_files/paper/2023/file/a8f8cbd7f7a5fb2c837e578c75e5b615-Paper-Datasets_and_Benchmarks.pdf
 	- https://zhuanlan.zhihu.com/p/656831068
@@ -134,9 +127,7 @@
 		- **数据选择的成本**：
 			- 尽管D4方法在训练效率上取得了显著提升，但数据选择本身也有一定的计算成本。
 			- 论文计算了D4方法的实际效率提升，发现其在实践中仍然具有显著的效率优势。
-- collapsed:: true
-  
-  LESS: Selecting Influential Data for Targeted Instruction Tuning
+- LESS: Selecting Influential Data for Targeted Instruction Tuning
 	- https://arxiv.org/pdf/2402.04333
 	- “针对性指导调整”（targeted instruction tuning）
 	- 挑战在于如何从庞大的数据集中识别出与这些特定能力最相关的数据。
