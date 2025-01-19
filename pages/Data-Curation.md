@@ -1,4 +1,6 @@
-- Selection via Proxy: Efficient Data Selection for Deep Learning
+- collapsed:: true
+  
+  Selection via Proxy: Efficient Data Selection for Deep Learning
 	- https://arxiv.org/pdf/1906.11829
 	- https://github.com/stanford-futuredata/selection-via-proxy/
 	- https://zhuanlan.zhihu.com/p/146482703
@@ -22,8 +24,7 @@
 	- https://arxiv.org/pdf/2309.16671
 	- https://github.com/facebookresearch/MetaCLIP
 	- https://zhuanlan.zhihu.com/p/661800351
-	  
-	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=Mzc1MDJhNTMxYWI4MDk3MzVlM2Q2NTM5NDVkMDU0ZDBfdlZHZU52aGtmQm1QR2tLQTF1dVFOME9Ma3dNbXE5ZTVfVG9rZW46TlJtYWJFa3Jrb0x5bzF4bXAwTWMybmJUbkNoXzE3MzcyNzM2NDU6MTczNzI3NzI0NV9WNA)
+	-
 - **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
 	- https://arxiv.org/pdf/2303.09540
 	- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
