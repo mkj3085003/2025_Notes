@@ -166,7 +166,9 @@
 	- PDS框架的核心思想是将数据选择视为控制变量（即是否将某个数据点包含在预训练中），将LM预训练过程视为动态系统，并将LM的下游性能视为目标。PDS首先在代理数据集上求解最优数据选择，为每个实例分配一个基于其对下游任务影响的质量分数。然后，训练一个小型的语言模型（称为数据评分器）来预测这些质量分数，并在目标语料库上推断分数。最后，根据预测的分数选择实例，形成用于从头开始预训练各种大小LMs的高质量语料库。
 	- https://blog.csdn.net/LIUMAO99/article/details/141352702
 	- ![image.png](../assets/image_1737286171679_0.png)
-- **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
+- collapsed:: true
+  
+  **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
 	- https://arxiv.org/pdf/2410.17215
 	- https://blog.csdn.net/weixin_36829761/article/details/143240984
 	- 大模型要怎么继承小模型的能力：包括知识蒸馏与参数复用的方法
