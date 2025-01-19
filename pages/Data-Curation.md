@@ -183,14 +183,16 @@
 	- [https://arxiv.org/pdf/2301.02241](https://arxiv.org/pdf/2301.02241)
 	- https://blog.csdn.net/qq_45978862/article/details/131583366
 	- https://github.com/facebookresearch/CiT
-	- 大型视觉语言模型通常适用于许多下游任务，但其高昂的训练成本只有大型机构才能承担。本文以通用性换取效率，提出了训练中的Curation（CiT），这是一种简单高效的视觉文本学习算法，将数据目标与训练相结合。CiT自动生成高质量的数据，以加速对比图像文本训练，并减轻对离线数据过滤管道的需求，允许广泛的数据源（包括来自网络的原始图像文本对）。CiT包含两个循环：一个管理训练数据的外循环和一个使用管理的训练数据的内循环。文本编码器连接两个循环。给定感兴趣任务的元数据，例如类名和大量图像-文本对，CiT通过测量其文本嵌入和元数据嵌入的相似性，从池中选择相关的训练数据。在我们的实验中，我们观察到CiT可以将训练速度提高一个数量级以上，特别是在原始数据量较大的情况下。
+	- 大型视觉语言模型通常适用于许多下游任务，但其高昂的训练成本只有大型机构才能承担。
+	- 本文以通用性换取效率，提出了训练中的Curation（CiT），这是一种简单高效的视觉文本学习算法，将数据目标与训练相结合。CiT自动生成高质量的数据，以加速对比图像文本训练，并减轻对离线数据过滤管道的需求，允许广泛的数据源（包括来自网络的原始图像文本对）。
+	- CiT包含两个循环：
+		- 一个管理训练数据的外循环和一个使用管理的训练数据的内循环。
+	- 文本编码器连接两个循环。给定感兴趣任务的元数据，例如类名和大量图像-文本对，CiT通过测量其文本嵌入和元数据嵌入的相似性，从池中选择相关的训练数据。在我们的实验中，我们观察到CiT可以将训练速度提高一个数量级以上，特别是在原始数据量较大的情况下。
 	- CiT包含两个循环：外部循环用于策划训练数据，内部循环用于使用策划的数据进行训练。文本编码器连接这两个循环。
 - A Survey of Multimodal Large Language Model from A Data-centric Perspective
 	- [https://arxiv.org/pdf/2405.16640v2](https://arxiv.org/pdf/2405.16640v2)
-	  
-	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MTA1OGZjNTlkM2JlYzcxYWNjOTc0NmEyNGNmMmQ5OTVfN3dHSDk4ZG1pUzRYVTltU3VuS1YxMXQ4TXpqdk1GVURfVG9rZW46RmN3TGJ5WENmbzgxTHR4VWdTWmMyUHhmbjBnXzE3MzcyNzM2NDU6MTczNzI3NzI0NV9WNA)
-	  
-	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NGJlZTQ1ZjgzZDU3N2IzMjA5ZDkxYzRlNjYwM2MyOTdfSDRaZFc2TlRoYmcxakhuOVFMb1Y5MmxoMVR1dDhhMzFfVG9rZW46S3lBYWJpU1FSb3dvWmt4S1NlRWNmcXFDbkVjXzE3MzcyNzM2NDU6MTczNzI3NzI0NV9WNA)
+	  ![image.png](../assets/image_1737286361742_0.png)
+	-
 	- Active Learning-Based Selection
 		- CiT
 	- Selection Before Training
