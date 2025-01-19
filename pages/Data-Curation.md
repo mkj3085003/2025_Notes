@@ -176,6 +176,7 @@
 		- 上采样困难样本——这些是大模型处理得很好，但小模型处理得不好的样本。
 		- 下采样简单样本——这些是小模型和大模型都能轻松解决的样本。
 		- 过滤掉噪声和无用的样本——这些是大模型认为不太有用的内容。
+	- ![image.png](../assets/image_1737292401461_0.png)
 - CiT: Curation in Training for Effective Vision-Language Data
 	- https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_CiT_Curation_in_Training_for_Effective_Vision-Language_Data_ICCV_2023_paper.pdf
 	- [https://arxiv.org/pdf/2301.02241](https://arxiv.org/pdf/2301.02241)
