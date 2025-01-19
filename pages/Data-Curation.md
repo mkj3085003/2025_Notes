@@ -20,9 +20,7 @@
 		- 选择排名最高的样本；
 		- 根据选定的样本更新模型。
 		- 其中第三步是深度学习的主要瓶颈。模型需要花费数小时甚至数天的时间进行训练，因此对于我们选择的每个样本，从头开始训练模型都不划算。在SVP背后我们核心见解是，==虽然较大的模型更准确，但它们排序并且选择相似样本的能力跟规模更小、准确率更低的模型一样。==
-- collapsed:: true
-  
-  Demystifying CLIP Data
+- Demystifying CLIP Data
 	- https://arxiv.org/pdf/2309.16671
 	- https://github.com/facebookresearch/MetaCLIP
 	- https://zhuanlan.zhihu.com/p/661800351
@@ -166,9 +164,7 @@
 	- PDS框架的核心思想是将数据选择视为控制变量（即是否将某个数据点包含在预训练中），将LM预训练过程视为动态系统，并将LM的下游性能视为目标。PDS首先在代理数据集上求解最优数据选择，为每个实例分配一个基于其对下游任务影响的质量分数。然后，训练一个小型的语言模型（称为数据评分器）来预测这些质量分数，并在目标语料库上推断分数。最后，根据预测的分数选择实例，形成用于从头开始预训练各种大小LMs的高质量语料库。
 	- https://blog.csdn.net/LIUMAO99/article/details/141352702
 	- ![image.png](../assets/image_1737286171679_0.png)
-- collapsed:: true
-  
-  **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
+- **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
 	- https://arxiv.org/pdf/2410.17215
 	- https://blog.csdn.net/weixin_36829761/article/details/143240984
 	- 大模型要怎么继承小模型的能力：包括知识蒸馏与参数复用的方法
