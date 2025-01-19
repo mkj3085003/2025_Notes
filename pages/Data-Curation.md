@@ -117,6 +117,12 @@
 			- **SemDeDup**：首先使用SemDeDup方法去除语义副本，即语义相似但不完全相同的成对数据。
 			- **聚类**：对去除副本后的数据进行K-Means聚类。
 			- **SSL Prototypes**：在聚类后的数据上应用SSL Prototypes方法，根据与簇中心的距离对数据点进行排序，选择更具代表性的数据点。
+	- 实验设置：
+	  collapsed:: true
+		- **数据集**：使用CommonCrawl数据集，并通过CCNet流程进行预处理，包括段落级去重、去除非英语网页和过滤低质量页面。在此基础上，增加了文档级MinHash去重步骤。
+		- **模型训练**：使用OPT模型架构，从头开始训练不同规模的模型（125M、1.3B、6.7B参数），并使用不同的数据选择策略。
+		- **评估指标**：包括验证集困惑度、下游任务准确率和指令调整困惑度。
+	-
 - LESS: Selecting Influential Data for Targeted Instruction Tuning
 	- https://arxiv.org/pdf/2402.04333
 	- “针对性指导调整”（targeted instruction tuning）
