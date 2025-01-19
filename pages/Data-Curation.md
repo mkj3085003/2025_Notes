@@ -1,4 +1,6 @@
-- Selection via Proxy: Efficient Data Selection for Deep Learning
+- collapsed:: true
+  
+  Selection via Proxy: Efficient Data Selection for Deep Learning
 	- https://arxiv.org/pdf/1906.11829
 	- https://github.com/stanford-futuredata/selection-via-proxy/
 	- https://zhuanlan.zhihu.com/p/146482703
@@ -63,7 +65,9 @@
 		- **定性数据示例**：提供了在子字符串匹配和平衡之前/之后的数据示例，以及包含ImageNet尾部类别的匹配文本示例。
 		  
 		  <!--EndFragment-->
-- **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
+- collapsed:: true
+  
+  **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
 	- https://arxiv.org/pdf/2303.09540
 	- 核心思想
 		- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
@@ -103,6 +107,7 @@
 		- **去除语义副本的效果**：去除大量语义副本几乎不会影响性能，并且可以显著提高训练效率。在LAION数据集上，去除50%的数据后，训练速度提高了一倍，且在分布外的性能也有所提高。
 		- **在C4上的应用**：SemDeDup在C4数据集上也表现出色，超越了先前的去重方法，同时提供了15%的效率提升。
 - **D4: Improving LLM  Pretraining via Document De-Duplication and Diversification**
+  collapsed:: true
 	- https://arxiv.org/pdf/2308.12284
 	- https://proceedings.neurips.cc/paper_files/paper/2023/file/a8f8cbd7f7a5fb2c837e578c75e5b615-Paper-Datasets_and_Benchmarks.pdf
 	- https://zhuanlan.zhihu.com/p/656831068
@@ -129,7 +134,9 @@
 		- **数据选择的成本**：
 			- 尽管D4方法在训练效率上取得了显著提升，但数据选择本身也有一定的计算成本。
 			- 论文计算了D4方法的实际效率提升，发现其在实践中仍然具有显著的效率优势。
-- LESS: Selecting Influential Data for Targeted Instruction Tuning
+- collapsed:: true
+  
+  LESS: Selecting Influential Data for Targeted Instruction Tuning
 	- https://arxiv.org/pdf/2402.04333
 	- “针对性指导调整”（targeted instruction tuning）
 	- 挑战在于如何从庞大的数据集中识别出与这些特定能力最相关的数据。
@@ -150,14 +157,18 @@
 			- 利用筛选出的高质量数据对模型进行针对性的指令调优。
 	- https://zhuanlan.zhihu.com/p/691190579
 	- 利用模型的梯度信息来估计数据点对于目标任务的影响
-- Data Selection via Optimal Control for Language Models
+- collapsed:: true
+  
+  Data Selection via Optimal Control for Language Models
 	- https://arxiv.org/pdf/2410.07064
 	- https://github.com/microsoft/LMOps/tree/main/data_selection
 	- 将数据选择问题形式化为一个广义的最优控制问题，并使用Pontryagin's Maximum Principle（PMP）来求解，得到了一组描述最优数据选择与LM训练动态之间关系的必要条件。
 	- PDS框架的核心思想是将数据选择视为控制变量（即是否将某个数据点包含在预训练中），将LM预训练过程视为动态系统，并将LM的下游性能视为目标。PDS首先在代理数据集上求解最优数据选择，为每个实例分配一个基于其对下游任务影响的质量分数。然后，训练一个小型的语言模型（称为数据评分器）来预测这些质量分数，并在目标语料库上推断分数。最后，根据预测的分数选择实例，形成用于从头开始预训练各种大小LMs的高质量语料库。
 	- https://blog.csdn.net/LIUMAO99/article/details/141352702
 	- ![image.png](../assets/image_1737286171679_0.png)
-- **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
+- collapsed:: true
+  
+  **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
 	- https://arxiv.org/pdf/2410.17215
 	- https://blog.csdn.net/weixin_36829761/article/details/143240984
 	- 大模型要怎么继承小模型的能力：包括知识蒸馏与参数复用的方法
@@ -168,7 +179,9 @@
 		- 下采样简单样本——这些是小模型和大模型都能轻松解决的样本。
 		- 过滤掉噪声和无用的样本——这些是大模型认为不太有用的内容。
 	- ![image.png](../assets/image_1737292401461_0.png)
-- CiT: Curation in Training for Effective Vision-Language Data
+- collapsed:: true
+  
+  CiT: Curation in Training for Effective Vision-Language Data
 	- https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_CiT_Curation_in_Training_for_Effective_Vision-Language_Data_ICCV_2023_paper.pdf
 	- [https://arxiv.org/pdf/2301.02241](https://arxiv.org/pdf/2301.02241)
 	- https://blog.csdn.net/qq_45978862/article/details/131583366
@@ -179,7 +192,9 @@
 		- 一个管理训练数据的外循环和一个使用管理的训练数据的内循环。
 	- 文本编码器连接两个循环。给定感兴趣任务的元数据，例如类名和大量图像-文本对，CiT通过测量其文本嵌入和元数据嵌入的相似性，从池中选择相关的训练数据。在我们的实验中，我们观察到CiT可以将训练速度提高一个数量级以上，特别是在原始数据量较大的情况下。
 	- CiT包含两个循环：外部循环用于策划训练数据，内部循环用于使用策划的数据进行训练。文本编码器连接这两个循环。
-- A Survey of Multimodal Large Language Model from A Data-centric Perspective
+- collapsed:: true
+  
+  A Survey of Multimodal Large Language Model from A Data-centric Perspective
 	- [https://arxiv.org/pdf/2405.16640v2](https://arxiv.org/pdf/2405.16640v2)
 	  ![image.png](../assets/image_1737286361742_0.png)
 	- ![744770113b8786c0f58090f481a9fee.png](../assets/744770113b8786c0f58090f481a9fee_1737286396776_0.png)
@@ -190,7 +205,9 @@
 		- 不考虑数据分布的具体特征，而只是基于通用的启发规则或简单的统计方法
 	- Distribution-Aware Selection
 		- 考虑数据分布的特征
-- Effective pruning of web-scale datasets based on complexity of concept clusters
+- collapsed:: true
+  
+  Effective pruning of web-scale datasets based on complexity of concept clusters
 	- https://arxiv.org/pdf/2401.04578
 	- 密度基础剪枝
 	- **方法**：提出了一种基于概念复杂度的密度基础剪枝（Density-Based Pruning, DBP）方法，通过简单的复杂度度量，将训练成本降低到常规训练的四分之一。
@@ -198,6 +215,7 @@
 		- **CLIP-score过滤**：计算图像和标题的嵌入，使用预训练的CLIP模型去除低质量样本。
 		- **密度基础剪枝（DBP）**：基于SSP-Pruning方法，使用k-means聚类将数据嵌入到预训练模型的嵌入空间中，然后根据聚类的复杂度决定从每个聚类中保留多少样本。
 - 思考
+  collapsed:: true
 	- 用一个比预训练模型架构更小的模型来做去重和多样化的操作
 	- 观察梯度变化，考虑可能可以造成更大梯度降低的数据
 	- 数据细粒度的调度问题
@@ -205,10 +223,8 @@
 		- 顺序依赖调度：一旦确定了数据之间的顺序依赖关系，如在文本叙述中的事件先后顺序或者视频帧的时间顺序，就可以按照这种顺序来调度数据输入模型。对于具有因果关系的数据，先输入原因相关的数据，让模型学习到这种因果关联的模式，再输入结果相关的数据进行验证和强化学习。例如，在一个描述化学实验过程的文本 - 图像多模态数据集里，先让模型学习实验步骤的文本描述和对应的初始实验装置图像，然后再输入后续反应过程和结果的图像与文本，这样有助于模型更好地理解整个实验流程的逻辑。
 		- 关联强度调度：根据数据之间依赖关系的强度来分配数据的输入权重和频率。通过计算依赖关系图中节点（数据单元）之间连接的权重，来衡量数据之间的关联强度。例如，在一个产品评论的文本数据集中，如果某两个句子之间存在很强的解释和被解释关系，那么在调度数据时，可以将这两个句子作为一组经常一起输入模型，并且在模型训练过程中，给予这组数据更高的重要性权重，使模型更加关注这种强关联的数据对，从而更好地理解评论中的关键信息。
 		- 动态更新依赖关系调度：数据之间的依赖关系可能会随着模型的学习过程而发生变化。例如，在模型初期，可能更关注简单的实体 - 描述关系，但随着训练的深入，会开始理解更复杂的概念 - 解释关系。因此，需要动态地更新数据依赖关系图，并根据新的关系来调整数据调度策略。这可以通过定期重新评估数据之间的语义、时间或空间关系来实现，或者根据模型在验证集上对不同关系类型数据的学习效果反馈来更新依赖关系和调度方案。
-		-
 		- 基于数据子集的分层调度
 			- 子集划分：将选出的 5% 的数据根据数据的特征（如类别、来源、风格等）划分为不同的子集。例如，在一个新闻文本分类任务中，可以将数据分为政治、经济、体育等不同类别子集。
 			- 分层训练：采用分层训练的方式，先在高层级（如类别级别）进行数据调度。先训练一个通用的类别分类器，使用每个类别子集中具有代表性的数据。然后，在较低层级（如每个类别内部的子主题）进行更细粒度的调度和训练，进一步细化模型对每个类别内部差异的识别能力。
 			- 子集更新与融合：随着训练的进行，定期更新子集的划分，以适应模型学习的新情况。例如，当模型在某些类别之间的区分能力已经很强时，可以将这些类别中的部分相似数据融合为一个新的子集，进行更高级别的训练。同时，也可以根据新出现的特征或模式，划分出新的子集，加强模型对这些新情况的学习。
 	- 先学更加不可分的，先注重记忆
--
