@@ -107,6 +107,7 @@
 		- **去除语义副本的效果**：去除大量语义副本几乎不会影响性能，并且可以显著提高训练效率。在LAION数据集上，去除50%的数据后，训练速度提高了一倍，且在分布外的性能也有所提高。
 		- **在C4上的应用**：SemDeDup在C4数据集上也表现出色，超越了先前的去重方法，同时提供了15%的效率提升。
 - **D4: Improving LLM  Pretraining via Document De-Duplication and Diversification**
+  collapsed:: true
 	- https://arxiv.org/pdf/2308.12284
 	- https://proceedings.neurips.cc/paper_files/paper/2023/file/a8f8cbd7f7a5fb2c837e578c75e5b615-Paper-Datasets_and_Benchmarks.pdf
 	- https://zhuanlan.zhihu.com/p/656831068
@@ -140,6 +141,7 @@
 	- LESS（Low-rank gradiEnt Similarity Search）的算法
 	- https://zhuanlan.zhihu.com/p/691190579
 	- 利用模型的梯度信息来估计数据点对于目标任务的影响
+	-
 - Data Selection via Optimal Control for Language Models
 	- https://arxiv.org/pdf/2410.07064
 	- https://github.com/microsoft/LMOps/tree/main/data_selection
