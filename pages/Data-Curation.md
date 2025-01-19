@@ -192,9 +192,7 @@
 		- 一个管理训练数据的外循环和一个使用管理的训练数据的内循环。
 	- 文本编码器连接两个循环。给定感兴趣任务的元数据，例如类名和大量图像-文本对，CiT通过测量其文本嵌入和元数据嵌入的相似性，从池中选择相关的训练数据。在我们的实验中，我们观察到CiT可以将训练速度提高一个数量级以上，特别是在原始数据量较大的情况下。
 	- CiT包含两个循环：外部循环用于策划训练数据，内部循环用于使用策划的数据进行训练。文本编码器连接这两个循环。
-- collapsed:: true
-  
-  A Survey of Multimodal Large Language Model from A Data-centric Perspective
+- A Survey of Multimodal Large Language Model from A Data-centric Perspective
 	- [https://arxiv.org/pdf/2405.16640v2](https://arxiv.org/pdf/2405.16640v2)
 	  ![image.png](../assets/image_1737286361742_0.png)
 	- ![744770113b8786c0f58090f481a9fee.png](../assets/744770113b8786c0f58090f481a9fee_1737286396776_0.png)
