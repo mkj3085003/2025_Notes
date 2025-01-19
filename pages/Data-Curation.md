@@ -148,9 +148,7 @@
 			- 利用筛选出的高质量数据对模型进行针对性的指令调优。
 	- https://zhuanlan.zhihu.com/p/691190579
 	- 利用模型的梯度信息来估计数据点对于目标任务的影响
-- collapsed:: true
-  
-  Data Selection via Optimal Control for Language Models
+- Data Selection via Optimal Control for Language Models
 	- https://arxiv.org/pdf/2410.07064
 	- https://github.com/microsoft/LMOps/tree/main/data_selection
 	- 将数据选择问题形式化为一个广义的最优控制问题，并使用Pontryagin's Maximum Principle（PMP）来求解，得到了一组描述最优数据选择与LM训练动态之间关系的必要条件。
@@ -179,9 +177,7 @@
 		- 一个管理训练数据的外循环和一个使用管理的训练数据的内循环。
 	- 文本编码器连接两个循环。给定感兴趣任务的元数据，例如类名和大量图像-文本对，CiT通过测量其文本嵌入和元数据嵌入的相似性，从池中选择相关的训练数据。在我们的实验中，我们观察到CiT可以将训练速度提高一个数量级以上，特别是在原始数据量较大的情况下。
 	- CiT包含两个循环：外部循环用于策划训练数据，内部循环用于使用策划的数据进行训练。文本编码器连接这两个循环。
-- collapsed:: true
-  
-  A Survey of Multimodal Large Language Model from A Data-centric Perspective
+- A Survey of Multimodal Large Language Model from A Data-centric Perspective
 	- [https://arxiv.org/pdf/2405.16640v2](https://arxiv.org/pdf/2405.16640v2)
 	  ![image.png](../assets/image_1737286361742_0.png)
 	- ![744770113b8786c0f58090f481a9fee.png](../assets/744770113b8786c0f58090f481a9fee_1737286396776_0.png)
