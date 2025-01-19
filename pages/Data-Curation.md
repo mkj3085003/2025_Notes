@@ -67,18 +67,30 @@
 		  <!--EndFragment-->
 - **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
 	- https://arxiv.org/pdf/2303.09540
-	- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
-	- Perceptual duplicates
+	- 核心思想
+		- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
+	- 背景知识
+		- **大规模数据集的重要性**：机器学习的进步在很大程度上得益于数据量的大幅增加。然而，像LAION这样的大规模网络数据集除了搜索精确副本外，几乎没有进行过滤，可能存在大量冗余。
+		- **数据效率的挑战**：尽管数据量不断增加，但测试误差通常随着数据量的增加而呈幂律下降，这意味着需要越来越多的数据来实现越来越小的性能提升。因此，提高数据效率，要么使模型在相同时间内达到相同性能，要么在相同计算预算下实现更好的性能，是非常重要的。
+	- collapsed:: true
+	  
+	  Perceptual duplicates
 		- Loosely define such data pairs to be perceptually identical to a typical human observer
 		- exact duplicates at the pixel or token level that could easily be found via exact duplicate detection in input space.
 		- 知觉重复：我们松散地定义这样的数据对在感知上与典型的人类观察者相同。最直接的版本将是像素或token级别的精确重复，这可以通过输入空间的精确重复检测轻松找到。然而，这种方法可能会错过具有人类难以察觉的像素级失真的图像对。大多数广泛使用的数据集已经应用了一些精确的重复过滤器，尽管具有轻微像素级差异的感知重复可以通过这样的过滤器。
-	- Semantic duplicates
+	- collapsed:: true
+	  
+	  Semantic duplicates
 		- these are examples which contain largely identical information content, but remain perceptually distinct. For example, a pair of image views which are derived from the same image, but feature different margins, aspect ratios, color distributions, etc. could be considered semantic duplicates. A pair of sentences with the same structure but some words exchanged for synonyms would also be considered a semantic duplicate. Such pairs would rarely, if ever, be detected by exact duplicate filters as they would be far apart in pixel/token space.
 		- 语义重复：这些是包含基本相同信息内容的示例，但在感知上仍然不同。例如，来自同一图像的一对图像视图，但特征不同的边距、纵横比、颜色分布等可以被认为是语义重复项。一对结构相同但交换同义词的某些单词的句子也将被视为语义重复。这样的对很少（如果有的话）由精确的重复过滤器检测到，因为它们在像素/标记空间中相距很远。
-	- Semantically redundant data
+	- collapsed:: true
+	  
+	  Semantically redundant data
 		- in contrast to semantic duplicates, semantically redundant data are not derived from the same underlying objects and would be clearly distinguishable to a human. However, the information contained in such examples may still contain substantial overlap. For example, consider the case of two different images of two different golden retrievers in two different parks. These images are neither perceptually nor semantically identical as the content of the images differs. However, the information contained in them is quite similar, leading us to think of such pairs as semantically redundant. Each additional semantically redundant data point will provide less and less new information, eventually converging to near-zero information gained from additional such data. Methods such as SSL Prototypes [13] and memorization [15] search for semantically non-redundant data subsets to train on.
 		- 语义冗余数据：与语义重复相比，语义冗余数据不是来自同一个底层对象，并且显然可以与人类区分开来。但是，此类示例中包含的信息可能仍然包含大量重叠。例如，考虑两个不同公园中两个不同黄金检索器的图像的情况。这些图像在感知上也不在语义上与图像的内容不同。但是，它们中包含的信息是非常相似的，导致我们认为这样的对在语义上是多余的。每个额外的语义冗余数据点将提供更少和更少的新信息，最终收敛到从其他此类数据中获得的接近零信息。SSL Prototypes [13] 和记忆 [15] 等方法搜索语义非冗余数据子集进行训练。
-	- Misleading data
+	- collapsed:: true
+	  
+	  Misleading data
 		- these are data which rather than providing zero information (as in the previous categories) provide negative or harmful signal, in the sense that removing these data actually improves performance, rather than having a neutral effect. While such data are easy to conceive of in supervised learning (i.e. mislabeled examples), it is much less clear what such examples may be in the context of self-supervised learning.
 		- 误导性数据：这些是数据，而不是提供零信息（如前几类）提供负面或有害的信号，因为删除这些数据实际上可以提高性能，而不是具有中性效应。虽然此类数据很容易在监督学习中构思（即错误标记的示例），但尚不清楚此类示例在自我监督学习的背景下可能是什么。
 	- **方法：**
