@@ -134,7 +134,9 @@
 		- **数据选择的成本**：
 			- 尽管D4方法在训练效率上取得了显著提升，但数据选择本身也有一定的计算成本。
 			- 论文计算了D4方法的实际效率提升，发现其在实践中仍然具有显著的效率优势。
-- LESS: Selecting Influential Data for Targeted Instruction Tuning
+- collapsed:: true
+  
+  LESS: Selecting Influential Data for Targeted Instruction Tuning
 	- https://arxiv.org/pdf/2402.04333
 	- “针对性指导调整”（targeted instruction tuning）
 	- 挑战在于如何从庞大的数据集中识别出与这些特定能力最相关的数据。
@@ -155,14 +157,15 @@
 			- 利用筛选出的高质量数据对模型进行针对性的指令调优。
 	- https://zhuanlan.zhihu.com/p/691190579
 	- 利用模型的梯度信息来估计数据点对于目标任务的影响
-- Data Selection via Optimal Control for Language Models
+- collapsed:: true
+  
+  Data Selection via Optimal Control for Language Models
 	- https://arxiv.org/pdf/2410.07064
 	- https://github.com/microsoft/LMOps/tree/main/data_selection
 	- 将数据选择问题形式化为一个广义的最优控制问题，并使用Pontryagin's Maximum Principle（PMP）来求解，得到了一组描述最优数据选择与LM训练动态之间关系的必要条件。
 	- PDS框架的核心思想是将数据选择视为控制变量（即是否将某个数据点包含在预训练中），将LM预训练过程视为动态系统，并将LM的下游性能视为目标。PDS首先在代理数据集上求解最优数据选择，为每个实例分配一个基于其对下游任务影响的质量分数。然后，训练一个小型的语言模型（称为数据评分器）来预测这些质量分数，并在目标语料库上推断分数。最后，根据预测的分数选择实例，形成用于从头开始预训练各种大小LMs的高质量语料库。
 	- https://blog.csdn.net/LIUMAO99/article/details/141352702
-	  
-	  ![](https://m-a-p-ai.feishu.cn/space/api/box/stream/download/asynccode/?code=MzYwZDA0MTk0NjljNTdlNmJjN2U1NjU0ODYyZGJjMjZfZ1hvRW1pWXo0Q0JFZmg4UG9CelpIQ3hkTTBkR0duM2xfVG9rZW46VDJEWWJlVmw4bzdDTWl4U0dtSmNtQ2JSbk5EXzE3MzcyNzM2NDU6MTczNzI3NzI0NV9WNA)
+	- ![image.png](../assets/image_1737286171679_0.png)
 - **MiniPLM: Knowledge Distillation for Pre-Training Language Models.**
 	- https://arxiv.org/pdf/2410.17215
 	- https://blog.csdn.net/weixin_36829761/article/details/143240984
