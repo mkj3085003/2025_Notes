@@ -2,6 +2,8 @@
 	- https://arxiv.org/pdf/1906.11829
 	- https://github.com/stanford-futuredata/selection-via-proxy/
 	- https://zhuanlan.zhihu.com/p/146482703
+	- 核心思想
+		- 主要研究了如何通过使用小的代理模型来提高深度学习中数据选择方法（如主动学习和核心集选择）的计算效率。
 	- 数据选择方法
 		- 主动学习(active learning)
 		- 核心集选择(core-set selection)
