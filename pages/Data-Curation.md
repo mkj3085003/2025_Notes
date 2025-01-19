@@ -25,6 +25,7 @@
 	- https://github.com/facebookresearch/MetaCLIP
 	- https://zhuanlan.zhihu.com/p/661800351
 	-
+	- ![image.png](../assets/image_1737283654079_0.png)
 - **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
 	- https://arxiv.org/pdf/2303.09540
 	- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
