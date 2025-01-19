@@ -72,7 +72,6 @@
 	- 背景知识
 		- 大规模数据集的重要性
 		- 数据效率的挑战
-	-
 	- collapsed:: true
 	  
 	  Perceptual duplicates
@@ -101,6 +100,10 @@
 	- **局限性：**
 		- SemDeDup虽然在移除语义重复数据方面表现良好，但它只是减少信息量数据点的一种方式，并没有涵盖所有方面的语义冗余，也没有解决错误或误导性数据的移除问题。
 		- SemDeDup需要访问与领域相关的预训练嵌入模型，这可能对完全新颖的领域构成问题。
+	- **关键结论**
+	- **语义副本的广泛存在**：LAION数据集中存在大量语义副本，50%的示例至少有一个语义副本。
+	- **去除语义副本的效果**：去除大量语义副本几乎不会影响性能，并且可以显著提高训练效率。在LAION数据集上，去除50%的数据后，训练速度提高了一倍，且在分布外的性能也有所提高。
+	- **在C4上的应用**：SemDeDup在C4数据集上也表现出色，超越了先前的去重方法，同时提供了15%的效率提升。
 - **D4: Improving ****LLM**** Pretraining via Document De-Duplication and Diversification**
 	- https://arxiv.org/pdf/2308.12284
 	- https://proceedings.neurips.cc/paper_files/paper/2023/file/a8f8cbd7f7a5fb2c837e578c75e5b615-Paper-Datasets_and_Benchmarks.pdf
