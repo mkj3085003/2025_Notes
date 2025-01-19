@@ -65,7 +65,9 @@
 		- **定性数据示例**：提供了在子字符串匹配和平衡之前/之后的数据示例，以及包含ImageNet尾部类别的匹配文本示例。
 		  
 		  <!--EndFragment-->
-- **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
+- collapsed:: true
+  
+  **SemDeDup: DataEfficient Learning at Web-Scale through Semantic Deduplication**
 	- https://arxiv.org/pdf/2303.09540
 	- 核心思想
 		- 通过利用预训练模型的嵌入来识别和移除语义相似但不完全相同的“语义重复”数据对。
@@ -104,7 +106,7 @@
 		- **语义副本的广泛存在**：LAION数据集中存在大量语义副本，50%的示例至少有一个语义副本。
 		- **去除语义副本的效果**：去除大量语义副本几乎不会影响性能，并且可以显著提高训练效率。在LAION数据集上，去除50%的数据后，训练速度提高了一倍，且在分布外的性能也有所提高。
 		- **在C4上的应用**：SemDeDup在C4数据集上也表现出色，超越了先前的去重方法，同时提供了15%的效率提升。
-- **D4: Improving ****LLM**** Pretraining via Document De-Duplication and Diversification**
+- **D4: Improving LLM  Pretraining via Document De-Duplication and Diversification**
 	- https://arxiv.org/pdf/2308.12284
 	- https://proceedings.neurips.cc/paper_files/paper/2023/file/a8f8cbd7f7a5fb2c837e578c75e5b615-Paper-Datasets_and_Benchmarks.pdf
 	- https://zhuanlan.zhihu.com/p/656831068
