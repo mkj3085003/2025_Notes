@@ -57,6 +57,7 @@
 	- **`data`**：存储数据的 JSON 文件，按任务类型（如 `codereason`、`ioi`、`sva`）进行分类存储。
 	- **`masks`**：存储掩码相关的数据，同样按任务类型分类存储。
 	- SAEMasks 类
+	  collapsed:: true
 		- `SAEMasks` 类用于管理和应用一组掩码（masks），这些掩码在神经网络的不同钩子点（hook points）上操作。该类支持掩码的应用、统计打印以及保存和加载模型。
 		- 构造方法
 			- ```python
@@ -140,4 +141,5 @@
 			          num_latents += (mask > 0).sum().item()  # 统计掩码中大于0的元素数量
 			      return num_latents
 			  ```
-	-
+	- SparseMask 类
+		-
