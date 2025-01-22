@@ -189,4 +189,6 @@
 			      super().__init__()
 			      self.ig_scores = ig_scores  # 集成梯度得分
 			  ```
--
+		- 前向传播
+			- ```python
+			  ```
