@@ -231,3 +231,6 @@
 		          if hasattr(sae, 'igmask'):
 		              sae.igmask = IGMask(sae.igmask.ig_scores)
 		  ```
+	- 函数：`produce_ig_binary_masks()`
+		-
+-
