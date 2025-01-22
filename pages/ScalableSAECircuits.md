@@ -255,4 +255,4 @@
 	- 函数:`sae_hook(value, hook):`
 		- 钩子函数 `sae_hook`，该函数会在模型的前向传播过程中被调用，主要用于对激活（activations）进行处理。
 	- 函数:`build_hooks_list(sequence, ...):`
-		-
+		- `build_hooks_list` 函数，该函数将为每个 SAE 模型创建一个钩子，并将所有钩子函数返回作为列表。
