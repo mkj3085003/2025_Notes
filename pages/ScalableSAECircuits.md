@@ -234,5 +234,19 @@
 	- 函数：`produce_ig_binary_masks()`
 		- 该函数基于给定的阈值生成二值化的 `IGMask` 掩码，并返回一个包含所有掩码的 `SAEMasks` 实例。
 		- ```python
+		  def produce_ig_binary_masks(threshold=0.01):
+		      hook_points = []
+		      masks = []
+		  
+		      for sae in saes:
+		          hook_point = sae.cfg.hook_name
+		          mask = sae.igmask.get_binarized_mask(threshold=threshold)
+		          hook_points.append(hook_point)
+		          masks.append(mask)
+		  
+		      return SAEMasks(
+		          hook_points=hook_points,
+		          masks=masks
+		      )
 		  ```
 -
