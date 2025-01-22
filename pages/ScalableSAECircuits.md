@@ -65,5 +65,7 @@
 			      self.hook_points = hook_points  # hook points 是钩子点的名称列表
 			      self.masks = masks  # 掩码列表，长度与钩子点数量一致
 			  ```
-			-
+		- 前向传播
+			- ```python
+			  ```
 -
