@@ -58,5 +58,10 @@
 	- **`masks`**：存储掩码相关的数据，同样按任务类型分类存储。
 	- SAEMasks 类
 		- `SAEMasks` 类用于管理和应用一组掩码（masks），这些掩码在神经网络的不同钩子点（hook points）上操作。该类支持掩码的应用、统计打印以及保存和加载模型。
-		-
+		- 构造方法
+			-
+			- def __init__(self, hook_points, masks):
+			      super().__init__()
+			      self.hook_points = hook_points  # hook points 是钩子点的名称列表
+			      self.masks = masks  # 掩码列表，长度与钩子点数量一致
 -
