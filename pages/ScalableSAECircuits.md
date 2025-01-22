@@ -134,4 +134,10 @@
 			  ```
 		- 获取激活的latents数量
 			- ```python
+			  def get_num_latents(self):
+			      num_latents = 0
+			      for mask in self.masks:
+			          num_latents += (mask > 0).sum().item()  # 统计掩码中大于0的元素数量
+			      return num_latents
 			  ```
+-
