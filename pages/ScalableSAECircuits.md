@@ -106,4 +106,30 @@
 			  ```
 		- 保存和加载
 			- ```python
+			  def save(self, save_dir, file_name="sae_masks.pt"):
+			      if not os.path.exists(save_dir):
+			          os.makedirs(save_dir)
+			      save_path = os.path.join(save_dir, file_name)
+			      checkpoint = {
+			          "hook_points": self.hook_points,
+			          "masks": self.masks
+			      }
+			      torch.save(checkpoint, save_path)
+			      print(f"SAEMasks saved to {save_path}")
+			  
+			  @classmethod
+			  def load(cls, load_dir, file_name="sae_masks.pt"):
+			      load_path = os.path.join(load_dir, file_name)
+			      if not os.path.isfile(load_path):
+			          raise FileNotFoundError(f"No saved SAEMasks found at {load_path}")
+			  
+			      checkpoint = torch.load(load_path)
+			      hook_points = checkpoint["hook_points"]
+			      masks = checkpoint["masks"]
+			  
+			      instance = cls(hook_points=hook_points, masks=masks)
+			      print(f"SAEMasks loaded from {load_path}")
+			      return instance
+			  
 			  ```
+-
