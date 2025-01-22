@@ -216,4 +216,8 @@
 			          "latents_per_tok": latents_per_tok
 			      }
 			  ```
-	-
+		- 获取二值化掩码
+			- ```python
+			  def get_binarized_mask(self, threshold):
+			      return (self.ig_scores.abs() > threshold).float()
+			  ```
