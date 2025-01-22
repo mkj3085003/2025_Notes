@@ -191,4 +191,15 @@
 			  ```
 		- 前向传播
 			- ```python
+			  def forward(self, x, threshold, mean_ablation=None):
+			      censored_activations = torch.ones_like(x)
+			      if mean_ablation != None:
+			          censored_activations = censored_activations * mean_ablation
+			      else:
+			          censored_activations = censored_activations * 0
+			  
+			      mask = (self.ig_scores.abs() > threshold).float()  # 根据阈值生成掩码
+			  
+			      diff_to_x = x - censored_activations
+			      return censored_activations + diff_to_x * mask
 			  ```
