@@ -67,5 +67,17 @@
 			  ```
 		- 前向传播
 			- ```python
+			  def forward(self, x, sae_hook_point, mean_ablation=None):
+			      index = self.hook_points.index(sae_hook_point)  # 查找钩子点对应的掩码
+			      mask = self.masks[index]  # 获取相应的掩码
+			      censored_activations = torch.ones_like(x)  # 创建一个和输入张量大小相同的全1张量
+			      if mean_ablation is not None:
+			          censored_activations = censored_activations * mean_ablation
+			      else:
+			          censored_activations = censored_activations * 0
+			  
+			      diff_to_x = x - censored_activations  # 计算原始张量与掩蔽张量的差异
+			      return censored_activations + diff_to_x * mask  # 应用掩码
+			  
 			  ```
 -
