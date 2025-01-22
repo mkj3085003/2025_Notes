@@ -223,4 +223,6 @@
 			      return (self.ig_scores.abs() > threshold).float()
 			  ```
 	- 函数：`refresh_class()`
-		-
+		- 该函数遍历所有 `saes` 对象，并刷新每个对象的 `igmask` 属性，使其与新的 `IGMask` 类兼容。
+		- ```python
+		  ```
