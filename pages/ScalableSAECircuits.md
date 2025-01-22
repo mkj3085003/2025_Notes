@@ -160,4 +160,23 @@
 			      self.distinct_sparsity_loss = 0
 			  
 			  ```
-		-
+		- 前向传播
+			- ```python
+			  def forward(self, x, binary=False, mean_ablation=None):
+			      if binary:
+			          binarized = (self.mask > 0).float()
+			          if mean_ablation is None:
+			              return x * binarized
+			          else:
+			              diff = x - mean_ablation
+			              return diff * binarized + mean_ablation
+			  
+			      self.temperature = self.max_temp ** self.ratio_trained
+			      mask = torch.sigmoid(self.mask * self.temperature)  # 应用sigmoid进行温度调节
+			      self.sparsity_loss = torch.abs(mask).sum() * self.l1  # 稀疏性损失
+			      if mean_ablation is None:
+			          return x * mask
+			      else:
+			          diff = x - mean_ablation
+			          return diff * mask + mean_ablation
+			  ```
