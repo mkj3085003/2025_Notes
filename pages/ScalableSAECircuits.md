@@ -80,4 +80,6 @@
 			      return censored_activations + diff_to_x * mask  # 应用掩码
 			  
 			  ```
-	-
+		- 打印掩码统计信息
+			- ```python
+			  ```
