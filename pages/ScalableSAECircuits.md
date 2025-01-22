@@ -82,4 +82,28 @@
 			  ```
 		- 打印掩码统计信息
 			- ```python
+			  def print_mask_statistics(self):
+			      for i, mask in enumerate(self.masks):
+			          shape = list(mask.shape)
+			          total_latents = mask.numel()
+			          total_on = mask.sum().item()  # 统计掩码中值为1的元素数量
+			  
+			          if len(shape) == 1:
+			              avg_on_per_token = total_on  # 只有一个token时直接等于总数
+			          elif len(shape) == 2:
+			              seq_len = shape[0]
+			              avg_on_per_token = total_on / seq_len if seq_len > 0 else 0
+			          else:
+			              seq_len = shape[0]
+			              avg_on_per_token = total_on / seq_len if seq_len > 0 else 0
+			  
+			          print(f"Statistics for mask '{self.hook_points[i]}':")
+			          print(f"  - Shape: {shape}")
+			          print(f"  - Total latents: {total_latents}")
+			          print(f"  - Latents ON (mask=1): {int(total_on)}")
+			          print(f"  - Average ON per token: {avg_on_per_token:.4f}\n")
+			  
+			  ```
+		- 保存和加载
+			- ```python
 			  ```
