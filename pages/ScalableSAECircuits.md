@@ -142,4 +142,21 @@
 			      return num_latents
 			  ```
 	- SparseMask 类
-		-
+		- `SparseMask` 类用于生成稀疏掩码，并在前向传播过程中应用该掩码。它包括一个L1正则化损失项，用于促进稀疏性。
+		- 构造方法
+			- ```python
+			  def __init__(self, shape, l1, seq_len=None, distinct_l1=0):
+			      super().__init__()
+			      if seq_len is not None:
+			          self.mask = nn.Parameter(torch.ones(seq_len, shape))  # 可训练掩码
+			      else:
+			          self.mask = nn.Parameter(torch.ones(shape))
+			      self.l1 = l1
+			      self.distinct_l1 = distinct_l1
+			      self.max_temp = torch.tensor(1000.0)
+			      self.sparsity_loss = None
+			      self.ratio_trained = 1
+			      self.temperature = 1
+			      self.distinct_sparsity_loss = 0
+			  
+			  ```
