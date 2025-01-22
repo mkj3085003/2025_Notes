@@ -1,2 +1,4 @@
 - https://github.com/NainaniJatinZ/ScalableSAECircuits/blob/main/ScalableSAECircuits_Colab.ipynb
+- **`data`**：存储数据的 JSON 文件，按任务类型（如 `codereason`、`ioi`、`sva`）进行分类存储。
+- **`masks`**：存储掩码相关的数据，同样按任务类型分类存储。
 -
