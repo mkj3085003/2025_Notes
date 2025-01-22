@@ -182,6 +182,7 @@
 			          return diff * mask + mean_ablation
 			  ```
 	- IGMask 类
+	  collapsed:: true
 		- `IGMask` 类基于集成梯度（Integrated Gradients）计算激活重要性得分，并根据指定阈值生成二值掩码。它还可以应用于输入并返回经过掩码处理后的张量。
 		- 构造方法
 			- ```python
@@ -221,3 +222,5 @@
 			  def get_binarized_mask(self, threshold):
 			      return (self.ig_scores.abs() > threshold).float()
 			  ```
+	- 函数：`refresh_class()`
+		-
