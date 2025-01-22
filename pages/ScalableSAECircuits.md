@@ -132,4 +132,6 @@
 			      return instance
 			  
 			  ```
--
+		- 获取激活的latents数量
+			- ```python
+			  ```
