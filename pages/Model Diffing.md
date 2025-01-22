@@ -3,4 +3,6 @@
 - [[LLM Circuit Analyses Are Consistent Across Training and Scale]]
 - https://github.com/EleutherAI/pythia
 - [[Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models]]
-- 简单的实现可以参考 https://github.com/NainaniJatinZ/ScalableSAECircuits/blob/main/ScalableSAECircuits_Colab.ipynb
+- 简单的实现可以参考
+- [[ScalableSAECircuits]]
+-
