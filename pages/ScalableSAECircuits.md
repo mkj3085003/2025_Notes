@@ -142,6 +142,7 @@
 			      return num_latents
 			  ```
 	- SparseMask 类
+	  collapsed:: true
 		- `SparseMask` 类用于生成稀疏掩码，并在前向传播过程中应用该掩码。它包括一个L1正则化损失项，用于促进稀疏性。
 		- 构造方法
 			- ```python
@@ -180,3 +181,5 @@
 			          diff = x - mean_ablation
 			          return diff * mask + mean_ablation
 			  ```
+	- IGMask 类
+		-
