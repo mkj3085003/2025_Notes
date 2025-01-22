@@ -232,5 +232,6 @@
 		              sae.igmask = IGMask(sae.igmask.ig_scores)
 		  ```
 	- 函数：`produce_ig_binary_masks()`
+		- 该函数基于给定的阈值生成二值化的 `IGMask` 掩码，并返回一个包含所有掩码的 `SAEMasks` 实例。
 		-
 -
