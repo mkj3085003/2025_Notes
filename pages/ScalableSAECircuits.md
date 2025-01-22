@@ -253,4 +253,5 @@
 	- 函数: `build_sae_hook_fn(...):`
 		- `build_sae_hook_fn` 用于生成一个钩子函数 (`hook function`)，这个钩子将插入到模型的前向传播过程中，以对中间激活进行操作和处理。
 	- 函数:`sae_hook(value, hook):`
-		-
+		- 钩子函数 `sae_hook`，该函数会在模型的前向传播过程中被调用，主要用于对激活（activations）进行处理。
+	-
