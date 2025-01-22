@@ -203,3 +203,16 @@
 			      diff_to_x = x - censored_activations
 			      return censored_activations + diff_to_x * mask
 			  ```
+		- 获取阈值掩码
+			- ```python
+			  def get_threshold_info(self, threshold):
+			      mask = (self.ig_scores.abs() > threshold).float()
+			      total_latents = mask.sum()
+			      avg_latents_per_tok = mask.sum() / mask.shape[0]
+			      latents_per_tok = mask.sum(dim=-1)
+			      return {
+			          "total_latents": total_latents,
+			          "avg_latents_per_tok": avg_latents_per_tok,
+			          "latents_per_tok": latents_per_tok
+			      }
+			  ```
