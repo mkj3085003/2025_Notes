@@ -1,7 +1,7 @@
 - https://github.com/NainaniJatinZ/ScalableSAECircuits/blob/main/ScalableSAECircuits_Colab.ipynb
 - https://www.lesswrong.com/posts/PkeB4TLxgaNnSmddg/scaling-sparse-feature-circuit-finding-to-gemma-9b
 - **将 SAE 电路扩展到大型模型**：通过仅将稀疏自动编码器间隔放置在残差流中，我们可以在与 Gemma 9B 一样大的模型中找到电路，而无需为每个变压器层训练 SAE。
--
+- **电路查找**：开发了一种更高效的电路查找算法，通过优化稀疏自编码器（SAE）潜在特征的二进制掩码来识别模型的关键子图。这种方法比现有的基于阈值的方法（如归因修补（Attribution Patching）或积分梯度（Integrated Gradients））更有效
 - **`data`**：存储数据的 JSON 文件，按任务类型（如 `codereason`、`ioi`、`sva`）进行分类存储。
 - **`masks`**：存储掩码相关的数据，同样按任务类型分类存储。
 -
