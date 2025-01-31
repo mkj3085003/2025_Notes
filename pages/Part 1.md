@@ -312,5 +312,7 @@ collapsed:: true
 				- non-fiction
 				- highlight
 				- sticky notes
-				- flip through the
+				- flip through the pages
+				- swipe through articles online
+				-
 -
