@@ -309,8 +309,7 @@ collapsed:: true
 					- I always ==have a blast玩得尽兴== on TV/movie nights with my brother who's also a sci-fi fan.
 					- ==Once in a while偶尔,== we put on these ==graphic tees== featuring starships from the movie Star Wars, order some popcorn and coke and watch some ==classic documentaries/sci-fi flicks== together.
 						- **Graphic tees**：指印有图案的T恤。
-						- ese
-						- ### [popcorn](http://www.baidu.com/link?url=sXKd3mOxpJrJSVBNPgIJFRr4_otZp8VfAKrEOzJPTaO7lTJP744gbZlkgSo_QqY2WMv1glLFYpQdc8HMfiOB3a)
+						- popcorn爆米花
 	- ## Readings
 		- ### E-books and paper books
 			- #### Topical Vocab
