@@ -134,6 +134,7 @@
 				- Wenshui County's geography is characterized by mountains and rivers, giving it a unique charm.
 				- While it may not be a major tourist city like some coastal destinations, it does have a rich history.
 				- Visitors can explore historical sites such as the Wu Zetian Memorial Hall and the ancient Fan'an Temple Pagoda, which offer a glimpse into the region's past.
+				- catch a glimpse of the city's past
 		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
 			- How long have you been living there?
