@@ -153,7 +153,6 @@
 				- Therefore, I might settle in another city or country in the future and visit my family from time to time.
 - # Home&Accommodation
 	- ## Topic Verb
-	  collapsed:: true
 		- types
 			- flat
 				- 公寓（英国)
