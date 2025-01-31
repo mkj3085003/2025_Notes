@@ -232,6 +232,7 @@ collapsed:: true
 				- native speaker
 				- Mandarin[ˈmændərɪn] Chinese
 					- 普通话
-				- Cantonese[ˌkæntəˈniːz]
+				- ==Cantonese[ˌkæntəˈniːz]==
+					-
 				- put into practical use/put into practice/consolidate
 -
