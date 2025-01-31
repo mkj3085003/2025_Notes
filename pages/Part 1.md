@@ -296,7 +296,8 @@ collapsed:: true
 					- Our teachers brought ==telescopes[ˈtelɪskəʊps]望远镜== to the classrooms for us to do a little bit of an experiment.
 					  But later on in college, my major **had nothing to do with** the study of the **galaxy**.
 				- Do you want to go into outer space in the future?
-					-
+					- Why not?
+					  I mean, if space travel would ever become as easy as travelling on a plane, I woulddefinitely give it a try.I hope scientists are breaking new ground and making scientific breakthroughs so lcan fulfil my dream down the road
 				- Would you like to find out more about space and the stars?
 				- Do you like watching science TV programs?/Are you interested in films concerning outer space and stars?
 	- ## Readings
