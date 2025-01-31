@@ -324,5 +324,10 @@ collapsed:: true
 					- It depends on the type of book I read.
 					- If it's a textbook, I really need to consolidate the knowledge by highlighting and putting sticky notes in the book, as well as flipping through them from time to time.
 					- However, if it's a novel, especially those online novels, I would rather download a copy online and delete it after reading it.
-				-
+				- When do you usually read online?
+				  There are mostly 2 cases.
+				  "One is that I sometimes curl up in my bed before sleep and read some romanticnovels on some online reading apps.The other is that I swipe through some articles on social media whenever I havetime, like when I'm having breakfast or during my commute.
+				  Will you read more online in the future?
+				  Sure, it's inevitable to do so in our daily life.
+				  Many people are making it a habit to find time for fragmented reading every day,which means that they squeeze some time to read online posts.Plus, if I need to write essays when I'm doing my master's next year, I will need toscan and skim through numerous academic articles online.
 -
