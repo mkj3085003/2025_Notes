@@ -266,6 +266,7 @@ collapsed:: true
 					- ==It can be a headache== to memorise a large amount of vocabulary, from nouns to verbs.
 					- Additionally, ==conjugation[ˌkɒndʒuˈɡeɪʃn]动词的词形变化== in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
 		- ### Science/Outer space and stars
+		  collapsed:: true
 			- #### Topical Vocab
 				- natural sciences
 				- physics
@@ -310,11 +311,10 @@ collapsed:: true
 					- ==Once in a while偶尔,== we put on these ==graphic tees== featuring starships from the movie Star Wars, order some popcorn and coke and watch some ==classic documentaries/sci-fi flicks== together.
 						- **Graphic tees**：指印有图案的T恤。
 						- popcorn爆米花
-						- documentaries
+						- documentaries纪录影片
 	- ## Readings
 		- ### E-books and paper books
 			- #### Topical Vocab
-			  collapsed:: true
 				- fiction
 				- non-fiction
 				- highlight
@@ -326,8 +326,7 @@ collapsed:: true
 				- curl up in my bed and read
 			- #### Q
 				- Which do you prefer, e-books or paper books?
-				  collapsed:: true
-					- It depends on the type of book I read.
+					- It depends on the ==type of book== I read.
 					- If it's a textbook, I really need to consolidate the knowledge by highlighting and putting sticky notes in the book, as well as flipping through them from time to time.
 					- However, if it's a novel, especially those online novels, I would rather download a copy online and delete it after reading it.
 				- When do you usually read online?
