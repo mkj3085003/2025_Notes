@@ -193,7 +193,8 @@
 					- she keeps everything clean and in its proper place.
 		- B. Surroundings
 			- Is life convenient around your place?
-				- It
+				- It depends on whether you have a car or not.
+				- If you do, you can access a supermarket and a hospital within a ten-minute drive.
 			- Are there any mistakes/shops near your place?
 		- C. Past&Future
 			- How long have you lived there?
