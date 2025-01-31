@@ -208,4 +208,4 @@
 			- Do you plan to live there for a long time?
 				- No.
 				- While my parents don't have the intention to move in the next coming years, I'll move to another city.
-				- This is because I will be gradua
+				- This is because I will be graduating soon and want to pursue better job opportunities in a metropolis like Beijing or Shanghai.
