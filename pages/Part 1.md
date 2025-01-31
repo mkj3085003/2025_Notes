@@ -182,6 +182,9 @@
 	- ## Q
 		- A. Descriptions
 			- Do you live in a house or a flat?
+				- I live in a small house in the countryside of Wenshui.
+				- It is not only cozy but also spotless.
+				- What's more, there are large windows that let in plenty of natural light, making the room bright and airy.
 			- Do you like the place you live in?
 		- B. Surroundings
 			- Is life convenient around your place?
