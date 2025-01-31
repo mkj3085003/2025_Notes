@@ -215,5 +215,8 @@ collapsed:: true
 - # Education
 	- ## Subjects
 		- ### Topical Vocab
-			- monolingual
-			-
+			- ==monolingual==
+				- 单语的;只用一种语言的;
+			- bilingual
+			- trilingual
+-
