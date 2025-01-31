@@ -62,7 +62,6 @@
 				- Actually, it's kind of like a game that never gets old.
 		- B.Preferences
 			- Who helps you the most? And how?
-			  collapsed:: true
 				- A classmate of mine, named xxx,
 					- is a year older than me
 					- is more knowledgeable
@@ -72,7 +71,6 @@
 					- friends
 					- occasionally helps me out
 			- Do you prefer to study in the mornings or in the afternoons?
-			  collapsed:: true
 				- Definitely in the afternoons
 				- because
 					- my brain is more alert
