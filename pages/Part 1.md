@@ -259,5 +259,5 @@ collapsed:: true
 					- However, our ==rote memorisation死记硬背== of grammar rules cannot always be put into practical use.
 				- What kinds of difficulties would you have if you want to learn a new language?
 					- ==It can be a headache== to memorise a large amount of vocabulary, from nouns to verbs.
-					- Additionally, conjugation[ˌkɒndʒuˈɡeɪʃn] in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
+					- Additionally, ==conjugation[ˌkɒndʒuˈɡeɪʃn]动词的词形变化== in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
 -
