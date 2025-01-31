@@ -173,8 +173,8 @@
 		- surroundings
 			- a nice neighbourhood
 			- community
-			- tranquil[ˈtræŋkwɪl]
-				- 干净的
+			- ==tranquil[ˈtræŋkwɪl]==
+				- 宁静的;安宁的;平静的;安静的;
 			- secure
 				- 干净的
 			- which is a 10-minute drive to
