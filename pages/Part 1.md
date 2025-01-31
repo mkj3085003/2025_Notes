@@ -240,5 +240,7 @@ collapsed:: true
 				- ==consolidate[kənˈsɒlɪdeɪt]==
 					- 巩固
 			- #### Q
-				-
+				- What languages can you speak?
+					- As a bilingual, I am fluent in both Chinese and English.
+					-
 -
