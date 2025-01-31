@@ -222,5 +222,6 @@ collapsed:: true
 			- ==polyglot==
 				- 通晓(或使用)多种语言
 			- accent
+				- 口音
 			- dialect
 -
