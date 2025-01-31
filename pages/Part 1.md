@@ -214,7 +214,8 @@ collapsed:: true
 				- This is because I will be graduating soon and want to pursue better job opportunities in a metropolis like Beijing or Shanghai.
 - # Education
 	- ## Subjects
-		- ### Topical Vocab
+		- ### Languages
+		- ####Topical Vocab
 			- ==monolingual==
 				- 单语的;只用一种语言的;
 			- bilingual
@@ -227,4 +228,7 @@ collapsed:: true
 				- 方言
 			- language lover
 			- globalisation
+				- 全球化
+			- native speaker
+			- Man
 -
