@@ -215,6 +215,7 @@ collapsed:: true
 - # Education
 	- ## Subjects
 		- ### Languages
+		  collapsed:: true
 			- #### Topical Vocab
 			  collapsed:: true
 				- ==monolingual==
@@ -265,6 +266,7 @@ collapsed:: true
 					- ==It can be a headache== to memorise a large amount of vocabulary, from nouns to verbs.
 					- Additionally, ==conjugation[ˌkɒndʒuˈɡeɪʃn]动词的词形变化== in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
 		- ### Science/Outer space and stars
+		  collapsed:: true
 			- #### Topical Vocab
 				- natural sciences
 				- physics
@@ -293,5 +295,6 @@ collapsed:: true
 				- Have you ever learnt anything about space and the stars when you were at school?
 				- Do you want to go into outer space in the future?
 				- Would you like to find out more about space and the stars?
-				- Do you like watching science TV
+				- Do you like watching science TV programs?/Are you interested in films concerning outer space and stars?
+		-
 -
