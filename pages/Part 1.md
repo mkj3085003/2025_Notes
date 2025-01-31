@@ -93,6 +93,7 @@
 				- It sounds like a good idea to me.
 				- Although it's challenging, it's intriguing at the same time.
 				- still have decades of life ahead of me
+				- so why not go for a change
 			-
 - # Hometown
 	- ## Topic Verb
