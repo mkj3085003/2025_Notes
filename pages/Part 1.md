@@ -273,6 +273,8 @@ collapsed:: true
 				- social sciences
 				- economics
 				- psychology
-				- sociology/history/politics/mathematics/computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
+				- sociology
+					- [ˌsəʊsiˈɒlədʒi]
+					- history/politics/mathematics/computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
 			- #### Q
 -
