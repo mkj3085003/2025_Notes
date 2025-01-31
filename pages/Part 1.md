@@ -299,7 +299,12 @@ collapsed:: true
 					- Why not?
 					  I mean, if space travel would ever become as easy as travelling on a plane, I woulddefinitely give it a try.I hope scientists are breaking new ground and making scientific breakthroughs so lcan fulfil my dream down the road
 				- Would you like to find out more about space and the stars?
+					- For sure, I've been checking out YouTube channels and documentaries for some educational content.
+					  However, as I dig deeper, I find out what I have known is only the tip of the iceberg.
+					  The real astronomy is way trickier than I thought.
 				- Do you like watching science TV programs?/Are you interested in films concerning outer space and stars?
+					- Absolutely.
+					  I always have a blast on TV/movie nights with my cousin who's also a sci-fi fan.Once in a while, we put on these graphic tees featuring starships from the movieStar Wars, order some popcorn and coke and watch some classic documentaries/sci-fi flicks together.
 	- ## Readings
 		- ### E-books and paper books
 		-
