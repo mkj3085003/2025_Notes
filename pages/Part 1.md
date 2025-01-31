@@ -104,7 +104,7 @@
 			- I was born and raised in/which is located in
 			- coastal/inland/riverside/lakeside
 		- descriptions
-			- metropolis
+			- metropolis[məˈtrɒpəlɪs]
 				- 大都市
 			- laid-back
 				- 悠闲的,放松的
