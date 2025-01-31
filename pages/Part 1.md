@@ -203,5 +203,7 @@
 		- C. Past&Future
 			- How long have you lived there?
 				- I was born and raised here for almost 20 years.
-				- because my parents chose to settle down in this larger house. Since then, we have been living in this spacious house in this tranquil community.
+				- because my parents chose to settle down in this house.
+				- Since then, we have been living in this spacious house in this tranquil community.
 			- Do you plan to live there for a long time?
+				-
