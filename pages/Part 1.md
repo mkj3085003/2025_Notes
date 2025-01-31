@@ -284,6 +284,9 @@ collapsed:: true
 				- astronomy
 					- [əˈstrɒnəmi]天文学
 				- the universe
-				- the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
+				- the great unknown
+				- sci-fi flicks
+				- challenging but rewarding
+				- the tip of the iceberg
 			- #### Q
 -
