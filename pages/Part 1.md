@@ -145,7 +145,8 @@
 				- Therefore, I learned about the history of my city from extra-curricular activities at local museums or documentaries.
 			- How long have you been living there?
 				- I was born and raised here,
-				- so I've been basically living here my whole life. Except for the four years I spent studying at Tongji University in Shanghai, I have never left Dalian.
+				- so I've been basically living here my whole life.
+				- except for the four years I spent studying at Tongji University in Shanghai.
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
 	- ## Topic Verb
