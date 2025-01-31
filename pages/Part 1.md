@@ -195,7 +195,7 @@
 			- Is life convenient around your place?
 				- It depends on whether you have a car or not.
 				- If you do, you can access a supermarket and a hospital within a ten-minute drive.
-				- However, for someone without a driver's license like myself, I would either have to call an Uber or wait
+				- However, for someone without a driver's license like myself, I would either have to call an uber or wait
 			- Are there any mistakes/shops near your place?
 		- C. Past&Future
 			- How long have you lived there?
