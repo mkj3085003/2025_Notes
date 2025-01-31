@@ -207,4 +207,5 @@
 				- Since then, we have been living in this spacious house in this tranquil community.
 			- Do you plan to live there for a long time?
 				- No.
-				- While my parents
+				- While my parents don't have the intention to move in the next coming years, I'll move to another city.
+				- This is because I will be gradua
