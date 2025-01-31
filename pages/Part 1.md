@@ -126,7 +126,9 @@
 				- It is well known for its rich cultural heritage and agricultural traditions
 				- and it's also a slow-paced city with laid-back residents
 			- Is that a big city or a small city?
-				-
+				- Well, it may not be a metropolis on the scale of Beijing or Shanghai,
+				- but it is a small county with its own unique charm. It might not be as prominent on a provincial map or in a night view from the sky, but it is still a place that holds great significance for those who call it home.
+				  For those who live there, although it may not offer the same level of excitement or opportunities as larger cities, it is a cozy and familiar place that provides a sense of community and a peaceful way of life.
 			- What‘s your hometown famous for?
 		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
