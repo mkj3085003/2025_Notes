@@ -122,7 +122,8 @@
 		- A. Descriptions
 			- Where is your hometown?
 				- I was born and raised in a small county town in Wenshui, Lvliang, Shanxi
-					- a city located in the northern part of China
+					- an inland city located in the northern part of China
+				- It is well
 			- Is that a big city or a small city?
 			- What‘s your hometown famous for?
 		- B. Past&Future
