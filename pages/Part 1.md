@@ -234,5 +234,7 @@ collapsed:: true
 					- 普通话
 				- ==Cantonese[ˌkæntəˈniːz]==
 					- 粤语
-				- put into practical use/put into practice/consolidate
+				- put into practical use
+				- put into practice
+				- consolidate[kənˈsɒlɪdeɪt]
 -
