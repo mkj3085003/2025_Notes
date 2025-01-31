@@ -278,6 +278,7 @@ collapsed:: true
 				- history
 				- politics
 				- mathematics
-				- computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
+				- computer science
+				- galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
 			- #### Q
 -
