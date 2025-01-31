@@ -246,7 +246,10 @@ collapsed:: true
 					- Mandarin[ˈmændərɪn] Chinese is my **mother tongue**, so I definitely **have mastery over精通** it.
 					- As for English, although I am not **as fluent as native speakers**, I still consider myself ==competent[ˈkɒmpɪtənt]有能力的== enough to communicate with people from different countries.
 				- What languages would you like to learn in the future?
+				  collapsed:: true
 					- I would love to learn Spanish and Korean[kəˈriən].
 					- With the ability to speak Chinese, English and Spanish, I will be able to communicate with half of the world's population.
 					- Additionally, I'm keen on learning another Asian language, and the pronunciation rules of Korean sound fascinating, so I might want to learn it.
+				- How do you learn a foreign language?
+					-
 -
