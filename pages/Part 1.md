@@ -254,5 +254,6 @@ collapsed:: true
 					- After I learn the **basics**, I watch TV shows to **consolidate** what I've learned and to put them into practice.
 					- Besides, I might want to test my progress by taking **standardised tests.**
 				- How are languages taught and learned in your school?
-				- What kinds of difficu
+					- English
+				- What kinds of difficulties would you have if you want to learn a new language?
 -
