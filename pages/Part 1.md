@@ -190,9 +190,10 @@
 				- The most important reason is it's spotless and organised.
 				- In fact, my mom is ==meticulous[məˈtɪkjələs]一丝不苟的==
 					- when it comes to cleaning the house
-					- she keeps everything clean and in tis prop
+					- she keeps everything clean and in its proper place.
 		- B. Surroundings
 			- Is life convenient around your place?
+				- It
 			- Are there any mistakes/shops near your place?
 		- C. Past&Future
 			- How long have you lived there?
