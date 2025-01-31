@@ -248,5 +248,5 @@ collapsed:: true
 				- What languages would you like to learn in the future?
 					- I would love to learn Spanish and Korean[kəˈriən].
 					- With the ability to speak Chinese, English and Spanish, I will be able to communicate with half of the world's population.
-					- Additionally, I'm keen on learning another Asian language, and the pronunciation rules of Korean sound fascinating, so
+					- Additionally, I'm keen on learning another Asian language, and the pronunciation rules of Korean sound fascinating, so I might want to learn it.
 -
