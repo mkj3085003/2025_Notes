@@ -216,6 +216,7 @@ collapsed:: true
 	- ## Subjects
 		- ### Languages
 			- #### Topical Vocab
+			  collapsed:: true
 				- ==monolingual==
 					- 单语的;只用一种语言的;
 				- bilingual
@@ -236,5 +237,8 @@ collapsed:: true
 					- 粤语
 				- put into practical use
 				- put into practice
-				- consolidate[kənˈsɒlɪdeɪt]
+				- ==consolidate[kənˈsɒlɪdeɪt]==
+					- 巩固
+			- #### Q
+				-
 -
