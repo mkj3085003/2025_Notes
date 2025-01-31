@@ -258,4 +258,5 @@ collapsed:: true
 					- We learned English grammar rules in school and were tested on them.
 					- However, our ==rote memorisation死记硬背== of grammar rules cannot always be put into practical use.
 				- What kinds of difficulties would you have if you want to learn a new language?
+					-
 -
