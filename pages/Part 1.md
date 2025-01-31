@@ -202,5 +202,6 @@
 				- Additionally, there's a Walmart within a ten-minute drive, which is great if I'm in the mood for a shopping ==spree[spriː]玩乐，狂欢.==
 		- C. Past&Future
 			- How long have you lived there?
-				- I was born and raised here because my parents chose to settle down in this larger house. Since then, we have been living in this spacious house in this tranquil community.
+				- I was born and raised here for almost 20 years.
+				- because my parents chose to settle down in this larger house. Since then, we have been living in this spacious house in this tranquil community.
 			- Do you plan to live there for a long time?
