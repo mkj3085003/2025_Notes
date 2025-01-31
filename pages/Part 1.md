@@ -286,6 +286,7 @@ collapsed:: true
 				- the universe
 				- the great unknown
 				- sci-fi flicks[flɪks]
+					- 科幻电影
 				- challenging but rewarding
 				- the tip of the iceberg
 			- #### Q
