@@ -140,7 +140,7 @@
 				- No, not really
 				- The history lessons in school ==syllabus(/ˈsɪləbəs/)课程大纲==
 					- only covered history in a more general view
-					-
+					- such as the history of the counrty
 			- How long have you been living there?
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
