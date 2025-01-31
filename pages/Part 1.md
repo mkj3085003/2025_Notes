@@ -91,7 +91,8 @@
 					- I believe that broadening my horizons in this way will not only enrich my personal life but also provide me with new perspectives and ideas that I can bring back to my research and future career.
 			- Would you like to go to other countries to study?
 				- It sounds like a good idea to me.
-				- Although it
+				- Although it's challenging, it's intriguing at the same time.
+				- still have decades of life ahead of me
 			-
 - # Hometown
 	- ## Topic Verb
