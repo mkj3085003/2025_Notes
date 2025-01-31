@@ -173,7 +173,7 @@
 		- surroundings
 			- a nice neighbourhood
 			- community
-			- tranquil
+			- tranquil[ˈtræŋkwɪl]
 				- 干净的
 			- secure
 				- 干净的
