@@ -81,7 +81,8 @@
 					- can't focus at all
 		- C.Past&Future
 			- What do you plan to do after graduation?
-				-
+				- I‘ve got tons of dreams to fulfil.
+				- First,
 			- Would you like to go to other countries to study?
 			-
 - # Hometown
