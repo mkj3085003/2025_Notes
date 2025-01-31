@@ -77,7 +77,7 @@
 					- so I find it easier to concentrate and absorb information
 				- However
 					- if morning
-					- get super drowsy
+					- get super ==drowsy(昏昏欲睡的，困倦的)==
 					- can't focus at all
 		- C.Past&Future
 			- What do you plan to do after graduation?
