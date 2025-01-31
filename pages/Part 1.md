@@ -176,12 +176,10 @@
 			- ==tranquil[ˈtræŋkwɪl]==
 				- 宁静的;安宁的;平静的;安静的;
 			- secure
-				- 干净的
+				- 安全的;牢固的;可靠的;稳固的;
 			- which is a 10-minute drive to
 			- a 5-minute walk from
-			-
 	- ## Q
-	  collapsed:: true
 		- A. Descriptions
 			- Do you live in a house or a flat?
 			- Do you like the place you live in?
