@@ -241,6 +241,6 @@ collapsed:: true
 					- 巩固
 			- #### Q
 				- What languages can you speak?
-					- As a bilingual, I am fluent in both Chinese and English.
-					-
+					- As a **bilingual**, I **am fluent in** both Chinese and English.
+					- Mandarin[ˈmændərɪn] Chinese is my mother tongue
 -
