@@ -243,5 +243,5 @@ collapsed:: true
 				- What languages can you speak?
 					- As a **bilingual**, I **am fluent in** both Chinese and English.
 					- Mandarin[ˈmændərɪn] Chinese is my **mother tongue**, so I definitely **have mastery over精通** it.
-					- As for English, although I am not as
+					- As for English, although I am not **as fluent as native speakers**, I still consider myself competent enough to communicate with people from different countries.
 -
