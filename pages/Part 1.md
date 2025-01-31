@@ -281,6 +281,9 @@ collapsed:: true
 				- computer science
 				- galaxy
 					- [ˈɡæləksi]星系
-				- astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
+				- astronomy
+					- [əˈstrɒnəmi]天文学
+				- the universe
+				- the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
 			- #### Q
 -
