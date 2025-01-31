@@ -199,7 +199,7 @@
 			- Are there any mistakes/shops near your place?
 				- Yes.
 				- There are a bunch of ==mom-and-pop夫妻(或家庭)经营的== shops just a stone's throw away from my apartment.
-				- Additionally, there's a Walmart within a ten-minute drive, which is great if I'm in the mood for a shopping spree.
+				- Additionally, there's a Walmart within a ten-minute drive, which is great if I'm in the mood for a shopping ==spree[spriː]玩乐，狂欢.==
 		- C. Past&Future
 			- How long have you lived there?
 			- Do you plan to live there for a long time?
