@@ -146,7 +146,7 @@
 			- How long have you been living there?
 				- I was born and raised here,
 				- so I've been basically living here my whole life.
-				- except for the four years I spent studying at Tongji University in Shanghai.
+				- Except for the four years I spent studying at Tongji University in Shanghai.
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
 	- ## Topic Verb
