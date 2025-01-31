@@ -320,6 +320,9 @@ collapsed:: true
 				- curl up in my bed and read
 			- #### Q
 				- Which do you prefer, e-books or paper books?
-				- It depends on the type of book I read.
-				- If it's a textbook, I really need to consolidate the knowledge by highlighting and putting sticky notes in the book, as well as flipping through them from time to timeHowever, if it's a novel, especially those online novels, I would rather download acopy online and delete it after reading it.
+				  collapsed:: true
+					- It depends on the type of book I read.
+					- If it's a textbook, I really need to consolidate the knowledge by highlighting and putting sticky notes in the book, as well as flipping through them from time to time.
+					- However, if it's a novel, especially those online novels, I would rather download a copy online and delete it after reading it.
+				-
 -
