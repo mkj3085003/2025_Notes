@@ -307,5 +307,10 @@ collapsed:: true
 					  I always have a blast on TV/movie nights with my cousin who's also a sci-fi fan.Once in a while, we put on these graphic tees featuring starships from the movieStar Wars, order some popcorn and coke and watch some classic documentaries/sci-fi flicks together.
 	- ## Readings
 		- ### E-books and paper books
-		-
+			- #### Topical Vocab
+				- fiction
+				- non-fiction
+				- highlight
+				- sticky notes
+				- flip through the
 -
