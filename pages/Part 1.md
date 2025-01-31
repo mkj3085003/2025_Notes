@@ -188,7 +188,7 @@
 			- Do you like the place you live in?
 				- Definitely.
 				- The most important reason is it's spotless and organised.
-				- In fact, my mom is meticulous[məˈtɪkjələs]
+				- In fact, my mom is ==meticulous[məˈtɪkjələs]==
 		- B. Surroundings
 			- Is life convenient around your place?
 			- Are there any mistakes/shops near your place?
