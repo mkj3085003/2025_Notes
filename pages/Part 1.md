@@ -293,7 +293,7 @@ collapsed:: true
 			- #### Q
 				- Have you ever learnt anything about space and the stars when you were at school?
 					- Yes, I've been taught **some basic astronomy in geography lessons** during high school, like **the Earth's orbit[ˈɔːbɪt]轨道 and rotation**.
-					- Our teachers brought telescopes to the classrooms for us to do a little bit of anexperiment.
+					- Our teachers brought ==telescopes[ˈtelɪskəʊps]望远镜== to the classrooms for us to do a little bit of an experiment.
 					  But later on in college, my major had nothing to do with the study of the galaxy.
 				- Do you want to go into outer space in the future?
 				- Would you like to find out more about space and the stars?
