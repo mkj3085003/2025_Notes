@@ -233,6 +233,6 @@ collapsed:: true
 				- Mandarin[ˈmændərɪn] Chinese
 					- 普通话
 				- ==Cantonese[ˌkæntəˈniːz]==
-					-
+					- 粤语
 				- put into practical use/put into practice/consolidate
 -
