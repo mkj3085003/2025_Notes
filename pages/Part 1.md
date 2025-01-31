@@ -250,14 +250,17 @@ collapsed:: true
 					- With the ability to speak Chinese, English and Spanish, I will be able to communicate with half of the world's population.
 					- Additionally, I'm keen on learning another Asian language, and the pronunciation rules of Korean sound fascinating, so I might want to learn it.
 				- How do you learn a foreign language?
+				  collapsed:: true
 					- I start by learning some **basic pronunciation, spelling, and grammar rules.**
 					- After I learn the **basics**, I watch TV shows to **consolidate** what I've learned and to put them into practice.
 					- Besides, I might want to test my progress by taking **standardised tests.**
 				- How are languages taught and learned in your school?
+				  collapsed:: true
 					- English is one of our **compulsory subjects**, so we spend quite a lot of time studying it.
 					- We learned English grammar rules in school and were tested on them.
 					- However, our ==rote memorisation死记硬背== of grammar rules cannot always be put into practical use.
 				- What kinds of difficulties would you have if you want to learn a new language?
+				  collapsed:: true
 					- ==It can be a headache== to memorise a large amount of vocabulary, from nouns to verbs.
 					- Additionally, ==conjugation[ˌkɒndʒuˈɡeɪʃn]动词的词形变化== in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
 -
