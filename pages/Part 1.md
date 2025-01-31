@@ -276,6 +276,8 @@ collapsed:: true
 				- sociology
 					- [ˌsəʊsiˈɒlədʒi]社会学
 				- history
-				- politics/mathematics/computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
+				- politics
+				- mathematics
+				- computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
 			- #### Q
 -
