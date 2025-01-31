@@ -274,7 +274,8 @@ collapsed:: true
 				- economics
 				- psychology
 				- sociology
-					- [ˌsəʊsiˈɒlədʒi]
-					- history/politics/mathematics/computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
+					- [ˌsəʊsiˈɒlədʒi]社会学
+				- history
+				- politics/mathematics/computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
 			- #### Q
 -
