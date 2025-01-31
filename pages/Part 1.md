@@ -215,20 +215,22 @@ collapsed:: true
 - # Education
 	- ## Subjects
 		- ### Languages
-		- ####Topical Vocab
-			- ==monolingual==
-				- 单语的;只用一种语言的;
-			- bilingual
-			- trilingual
-			- ==polyglot==
-				- 通晓(或使用)多种语言
-			- accent
-				- 口音
-			- dialect
-				- 方言
-			- language lover
-			- globalisation
-				- 全球化
-			- native speaker
-			- Man
+			- #### Topical Vocab
+				- ==monolingual==
+					- 单语的;只用一种语言的;
+				- bilingual
+				- trilingual
+				- ==polyglot==
+					- 通晓(或使用)多种语言
+				- accent
+					- 口音
+				- dialect
+					- 方言
+				- language lover
+				- globalisation
+					- 全球化
+				- native speaker
+				- Mandarin Chinese
+				- Cantonese
+				- put into practical use/put into practice/consolidate
 -
