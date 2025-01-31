@@ -255,6 +255,7 @@ collapsed:: true
 					- Besides, I might want to test my progress by taking **standardised tests.**
 				- How are languages taught and learned in your school?
 					- English is one of our **compulsory subjects**, so we spend quite a lot of time studying it.
-					- We lea
+					- We learned English grammar rules in school and were tested on them.
+					- However, our rote memorisation of gra
 				- What kinds of difficulties would you have if you want to learn a new language?
 -
