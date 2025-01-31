@@ -131,6 +131,7 @@
 				- It might not be as ==prominent显眼的== on a provincial map or in a night view from the sky, but it is still a place that holds great significance for those who call it home.
 				  For those who live there, although it may not offer the same level of excitement or opportunities as larger cities, it is a cozy and familiar place that provides a sense of community and a peaceful way of life.
 			- What‘s your hometown famous for?
+				- Wenshui County's geography is characterized by mountains and rivers, giving it a unique charm. While it may not be a major tourist city like some coastal destinations, it does have a rich history. Visitors can explore historical sites such as the Wu Zetian Memorial Hall and the ancient Fan'an Temple Pagoda, which offer a glimpse into the region's past.
 		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
 			- How long have you been living there?
