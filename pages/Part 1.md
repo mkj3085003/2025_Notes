@@ -122,6 +122,7 @@
 		- A. Descriptions
 			- Where is your hometown?
 				- I was born and raised in
+					- a city located in the
 			- Is that a big city or a small city?
 			- What‘s your hometown famous for?
 		- B. Past&Future
