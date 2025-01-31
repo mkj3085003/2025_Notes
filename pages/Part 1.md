@@ -107,7 +107,7 @@
 			- metropolis
 				- 大都市
 			- laid-back
-				- 放松的
+				- 悠闲的,放松的
 			- vibrant
 				- 活力的
 			- cozy
