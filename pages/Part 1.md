@@ -220,5 +220,7 @@ collapsed:: true
 			- bilingual
 			- trilingual
 			- ==polyglot==
-				-
+				- 通晓(或使用)多种语言
+			- accent
+			- dialect
 -
