@@ -128,7 +128,7 @@
 			- Is that a big city or a small city?
 				- Well, it may not be a metropolis on the scale of Beijing or Shanghai,
 				- but it is a small county with its own unique charm.
-				- It might not be as prominent on a provincial map or in a night view from the sky, but it is still a place that holds great significance for those who call it home.
+				- It might not be as ==prominent== on a provincial map or in a night view from the sky, but it is still a place that holds great significance for those who call it home.
 				  For those who live there, although it may not offer the same level of excitement or opportunities as larger cities, it is a cozy and familiar place that provides a sense of community and a peaceful way of life.
 			- What‘s your hometown famous for?
 		- B. Past&Future
