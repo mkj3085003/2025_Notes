@@ -291,5 +291,7 @@ collapsed:: true
 				- the tip of the iceberg
 			- #### Q
 				- Have you ever learnt anything about space and the stars when you were at school?
-				- Do you want
+				- Do you want to go into outer space in the future?
+				- Would you like to find out more about space and the stars?
+				- Do you like watching science TV
 -
