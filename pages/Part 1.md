@@ -124,8 +124,9 @@
 				- I was born and raised in a small county town in Wenshui, Lvliang, Shanxi
 					- an inland city located in the northern part of China
 				- It is well known for its rich cultural heritage and agricultural traditions
-				- and it's also a slow-paced city with laid-back re
+				- and it's also a slow-paced city with laid-back residents
 			- Is that a big city or a small city?
+				-
 			- What‘s your hometown famous for?
 		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
