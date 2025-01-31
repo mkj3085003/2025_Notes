@@ -86,7 +86,8 @@
 					- provide me with an in-depth understanding of the field and the opportunity to conduct cutting-edge research.
 				- In addition to my academic pursuits,
 					- a strong desire to explore the world.
-					- I want to travel to different countries and cultures, experiencing their unique traditions, cuisines, and ways of life. I believe that broadening my horizons in this way will not only enrich my personal life but also provide me with new perspectives and ideas that I can bring back to my research and future career.
+					- I want to travel to different countries and cultures,
+					- experiencing their unique traditions, cuisines, and ways of life. I believe that broadening my horizons in this way will not only enrich my personal life but also provide me with new perspectives and ideas that I can bring back to my research and future career.
 			- Would you like to go to other countries to study?
 			-
 - # Hometown
