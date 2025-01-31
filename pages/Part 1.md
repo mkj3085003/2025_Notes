@@ -256,6 +256,6 @@ collapsed:: true
 				- How are languages taught and learned in your school?
 					- English is one of our **compulsory subjects**, so we spend quite a lot of time studying it.
 					- We learned English grammar rules in school and were tested on them.
-					- However, our rote memorisation of grammar rules cannot always be put intopractical use.
+					- However, our ==rote memorisation死记硬背== of grammar rules cannot always be put into practical use.
 				- What kinds of difficulties would you have if you want to learn a new language?
 -
