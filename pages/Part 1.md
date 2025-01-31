@@ -121,7 +121,7 @@
 	- ## Q
 		- A. Descriptions
 			- Where is your hometown?
-				- I was born and raised in
+				- I was born and raised in a small county town in Wenshui, Lvliang, Shanxi
 					- a city located in the
 			- Is that a big city or a small city?
 			- What‘s your hometown famous for?
