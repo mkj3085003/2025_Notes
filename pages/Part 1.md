@@ -310,6 +310,7 @@ collapsed:: true
 					- ==Once in a while偶尔,== we put on these ==graphic tees== featuring starships from the movie Star Wars, order some popcorn and coke and watch some ==classic documentaries/sci-fi flicks== together.
 						- **Graphic tees**：指印有图案的T恤。
 						- popcorn爆米花
+						- documentaries
 	- ## Readings
 		- ### E-books and paper books
 			- #### Topical Vocab
