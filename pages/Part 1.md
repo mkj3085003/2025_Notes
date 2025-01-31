@@ -94,7 +94,7 @@
 				- Although it's challenging, it's intriguing at the same time.
 					- still have decades of life ahead of me
 					- so why not go for a change?
-				- Maybe I'll find an exotic
+				- Maybe I'll find an ==exotic==
 			-
 - # Hometown
 	- ## Topic Verb
