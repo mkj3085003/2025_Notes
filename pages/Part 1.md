@@ -230,7 +230,8 @@ collapsed:: true
 				- globalisation
 					- 全球化
 				- native speaker
-				- Mandarin Chinese
+				- Mandarin[ˈmændərɪn] Chinese
+					- 普通话
 				- Cantonese
 				- put into practical use/put into practice/consolidate
 -
