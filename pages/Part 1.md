@@ -206,4 +206,5 @@
 				- because my parents chose to settle down in this house.
 				- Since then, we have been living in this spacious house in this tranquil community.
 			- Do you plan to live there for a long time?
-				-
+				- No.
+				- While my parents
