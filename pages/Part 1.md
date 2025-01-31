@@ -285,7 +285,7 @@ collapsed:: true
 					- [əˈstrɒnəmi]天文学
 				- the universe
 				- the great unknown
-				- sci-fi flicks
+				- sci-fi flicks[flɪks]
 				- challenging but rewarding
 				- the tip of the iceberg
 			- #### Q
