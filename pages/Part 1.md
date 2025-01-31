@@ -308,6 +308,7 @@ collapsed:: true
 	- ## Readings
 		- ### E-books and paper books
 			- #### Topical Vocab
+			  collapsed:: true
 				- fiction
 				- non-fiction
 				- highlight
@@ -315,5 +316,8 @@ collapsed:: true
 				- flip through the pages
 				- swipe through articles online
 				- scan and skim
-				- fragmented
+				- fragmented reading
+				- curl up in my bed and read
+			- #### Q
+				-
 -
