@@ -186,6 +186,9 @@
 				- It is not only cozy but also spotless.
 				- What's more, there are large windows that let in plenty of natural light, making the room bright and airy.
 			- Do you like the place you live in?
+				- Definitely.
+				- The most important reason is it's spotless and organised.
+				-
 		- B. Surroundings
 			- Is life convenient around your place?
 			- Are there any mistakes/shops near your place?
