@@ -216,6 +216,7 @@ collapsed:: true
 	- ## Subjects
 		- ### Languages
 			- #### Topical Vocab
+			  collapsed:: true
 				- ==monolingual==
 					- 单语的;只用一种语言的;
 				- bilingual
@@ -263,4 +264,8 @@ collapsed:: true
 				  collapsed:: true
 					- ==It can be a headache== to memorise a large amount of vocabulary, from nouns to verbs.
 					- Additionally, ==conjugation[ˌkɒndʒuˈɡeɪʃn]动词的词形变化== in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
+		- ### Science/Outer space and stars
+			- #### Topical Vocab
+				-
+			- #### Q
 -
