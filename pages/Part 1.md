@@ -58,7 +58,7 @@
 					- gain a sense of fulfillment from solving problems, improving my coding skills, and achieving good academic performance.
 			- Is it very interesting?
 				- Definitely, what I find most exciting about it is studying a diverse range of knowledge, from algorithms to machine learning theories.
-				- Some theories are practical and can come in handy during my projects and research, while others are ==intriguing== because of their complexity and real-world applications.
+				- Some theories are practical and can come in handy during my projects and research, while others are ==intriguing(有趣的)== because of their complexity and real-world applications.
 				- Actually, it's kind of like a game that never gets old.
 		- B.Preferences
 			- Who helps you the most? And how?
