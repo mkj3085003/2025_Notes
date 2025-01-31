@@ -142,7 +142,7 @@
 					- only covered history in a more general view
 					- such as the history of the country or the world
 					- but not the history of any specific city
-					-
+				- Therefore, I learned about the history of my city from extra-curricular activities at local museums,
 			- How long have you been living there?
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
