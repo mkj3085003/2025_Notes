@@ -307,7 +307,7 @@ collapsed:: true
 				- Do you like watching science TV programs?/Are you interested in films concerning outer space and stars?
 					- Absolutely.
 					- I always ==have a blast玩得尽兴== on TV/movie nights with my brother who's also a sci-fi fan.
-					- Once in a while, we put on these graphic tees featuring starships from the movieStar Wars, order some popcorn and coke and watch some classic documentaries/sci-fi flicks together.
+					- ==Once in a while偶尔,== we put on these graphic tees featuring starships from the movieStar Wars, order some popcorn and coke and watch some classic documentaries/sci-fi flicks together.
 	- ## Readings
 		- ### E-books and paper books
 			- #### Topical Vocab
