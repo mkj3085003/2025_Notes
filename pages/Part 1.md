@@ -94,11 +94,12 @@
 				- Although it's challenging, it's intriguing at the same time.
 					- still have decades of life ahead of me
 					- so why not go for a change?
-				- Maybe I'll find an ==exotic(有异国情调的)== nation, try out different things
+				- Maybe I'll find an ==exotic(有异国情调的)== nation,
+					- try out different things,
+					- and learn about local working cultures.
 			-
 - # Hometown
 	- ## Topic Verb
-	  collapsed:: true
 		- location
 			- I was born and raised in/which is located in
 			- coastal/inland/riverside/lakeside
