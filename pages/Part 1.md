@@ -253,4 +253,6 @@ collapsed:: true
 					- I start by learning some **basic pronunciation, spelling, and grammar rules.**
 					- After I learn the **basics**, I watch TV shows to **consolidate** what I've learned and to put them into practice.
 					- Besides, I might want to test my progress by taking **standardised tests.**
+				- How are languages taught and learned in your school?
+				- What kinds of difficu
 -
