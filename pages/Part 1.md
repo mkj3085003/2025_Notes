@@ -297,7 +297,8 @@ collapsed:: true
 					  But later on in college, my major **had nothing to do with** the study of the **galaxy**.
 				- Do you want to go into outer space in the future?
 					- Why not?
-					  I mean, if space travel would ever become as easy as travelling on a plane, I woulddefinitely give it a try.I hope scientists are breaking new ground and making scientific breakthroughs so lcan fulfil my dream down the road
+					  I mean, if space travel would ever **become as easy as travelling on a plane**, I would definitely give it a try.
+					- I hope scientists are breaking new ground and making scientific breakthroughs so lcan fulfil my dream down the road
 				- Would you like to find out more about space and the stars?
 					- For sure, I've been checking out YouTube channels and documentaries for some educational content.
 					  However, as I dig deeper, I find out what I have known is only the tip of the iceberg.
@@ -331,7 +332,7 @@ collapsed:: true
 					- Sure, it's inevitable to do so in our daily life.
 					  Many people are making it a habit to find time for fragmented reading every day,which means that they squeeze some time to read online posts.Plus, if I need to write essays when I'm doing my master's next year, I will need toscan and skim through numerous academic articles online.
 				- Do you think paper books will disappear in the future?
-				  Not in the near future.
-				  In schools, especially primary schools, paper books are still used more than e-booksbecause they can protect kids' eyes.
-				  But maybe in 100 years, e-books will fully replace paper books. Libraries mightyanish and only e-libraries will thrive.
+					- Not in the near future.
+					  In schools, especially primary schools, paper books are still used more than e-booksbecause they can protect kids' eyes.
+					  But maybe in 100 years, e-books will fully replace paper books. Libraries mightyanish and only e-libraries will thrive.
 -
