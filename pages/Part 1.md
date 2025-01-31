@@ -213,5 +213,7 @@ collapsed:: true
 				- While my parents don't have the intention to move in the next coming years, I'll move to another city.
 				- This is because I will be graduating soon and want to pursue better job opportunities in a metropolis like Beijing or Shanghai.
 - # Education
-	- ## Topic Verb
-		-
+	- ## Subjects
+		- ### Topical Vocab
+			- monolingual
+			-
