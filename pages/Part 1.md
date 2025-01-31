@@ -137,6 +137,8 @@
 				- catch a glimpse of the city's past
 		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
+				- No, not really
+				- The history lessons in school
 			- How long have you been living there?
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
