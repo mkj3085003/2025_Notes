@@ -266,6 +266,13 @@ collapsed:: true
 					- Additionally, ==conjugation[ˌkɒndʒuˈɡeɪʃn]动词的词形变化== in some languages like Spanish can be super complex,which means that one verb can have dozens of different conjugations.
 		- ### Science/Outer space and stars
 			- #### Topical Vocab
-				-
+				- natural sciences
+				- physics
+				- chemistry
+				- biology
+				- social sciences
+				- economics
+				- psychology
+				- sociology/history/politics/mathematics/computer science / galaxy /astronomy/the universe/the great unknown /sci-fi flicks/ challenging butrewarding/ the tip of the iceberg
 			- #### Q
 -
