@@ -149,7 +149,8 @@
 				- Except for the four years I spent studying at Tongji University in Shanghai.
 			- Do you think you will continue living there for a long time?
 				- To be honest, I'm not sure.
-				- While I want to stay with my family in this laid-back city with less stress and competitiveness
+				- While I want to stay with my family in this laid-back city with less stress and competitiveness, it doesn't offer young people enough opportunities.
+				- Therefore, I might settle in another city or country in the future and visit my family from time to time.
 - # Home&Accommodation
 	- ## Topic Verb
 	  collapsed:: true
