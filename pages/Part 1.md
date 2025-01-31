@@ -297,8 +297,8 @@ collapsed:: true
 					  But later on in college, my major **had nothing to do with** the study of the **galaxy**.
 				- Do you want to go into outer space in the future?
 					- Why not?
-					  I mean, if space travel would ever **become as easy as travelling on a plane**, I would definitely give it a try.
-					- I hope scientists are breaking new ground and making scientific breakthroughs so lcan fulfil my dream down the road
+					  I mean, if space travel would ever **become as easy as travelling on a plane**, I would definitely **give it a try**.
+					- I hope scientists are **breaking new ground** and **making scientific breakthroughs** so l can fulfil my dream ==down the road==.
 				- Would you like to find out more about space and the stars?
 					- For sure, I've been checking out YouTube channels and documentaries for some educational content.
 					  However, as I dig deeper, I find out what I have known is only the tip of the iceberg.
