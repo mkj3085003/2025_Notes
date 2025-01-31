@@ -314,5 +314,6 @@ collapsed:: true
 				- sticky notes
 				- flip through the pages
 				- swipe through articles online
-				-
+				- scan and skim
+				- fragmented
 -
