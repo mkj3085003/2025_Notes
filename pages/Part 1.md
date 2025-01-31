@@ -251,5 +251,5 @@ collapsed:: true
 					- Additionally, I'm keen on learning another Asian language, and the pronunciation rules of Korean sound fascinating, so I might want to learn it.
 				- How do you learn a foreign language?
 					- I start by learning some ==basic pronunciation, spelling, and grammar rules.==
-					-
+					- After I learn the basics, I watch TV shows to consolidate what I've learned and
 -
