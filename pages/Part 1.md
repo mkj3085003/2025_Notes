@@ -148,6 +148,8 @@
 				- so I've been basically living here my whole life.
 				- Except for the four years I spent studying at Tongji University in Shanghai.
 			- Do you think you will continue living there for a long time?
+				- To be honest, I'm not sure.
+				- While I want to stay with my family in this laid-back city with less stress and competitiveness
 - # Home&Accommodation
 	- ## Topic Verb
 	  collapsed:: true
