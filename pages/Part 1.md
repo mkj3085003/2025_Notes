@@ -138,7 +138,9 @@
 		- B. Past&Future
 			- Did you learn about the history of your hometown at school?
 				- No, not really
-				- The history lessons in school ==syllabus(/ˈsɪləbəs/)==
+				- The history lessons in school ==syllabus(/ˈsɪləbəs/)课程大纲==
+					- only covered history in a more general view
+					-
 			- How long have you been living there?
 			- Do you think you will continue living there for a long time?
 - # Home&Accommodation
